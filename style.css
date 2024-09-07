@@ -1,0 +1,859 @@
+:root {
+  --basegreen: #00a878;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+Body {
+  font-family: "Exo", sans-serif;
+}
+
+/*================
+index.html
+================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .index-keyframe-padding-container {
+    padding: 5rem 0 5rem;
+  }
+
+  .index-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .index-keyframe-header,
+  .index-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 1.8rem;
+  }
+
+  .index-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .index-keyframe-text h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .index-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .index-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .index-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 2.75rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .index-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .industry-container {
+    width: 100%;
+    margin: 0.25rem 0 0;
+    background-color: whitesmoke;
+  }
+
+  .industry-header,
+  .industry-header h4 {
+    width: 90%;
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--basegreen);
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .industry-subheader,
+  .industry-subheader p {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .industry-tile-grid {
+    margin: 1rem 0 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .industry-tile {
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 70%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 0.5rem;
+    margin-right: auto;
+  }
+
+  .industry-tile-img,
+  .industry-tile-img img {
+    height: 11rem;
+    width: 100%;
+  }
+
+  .industry-tile-mid-section {
+    width: 100%;
+    padding: 0.25em;
+    background-color: var(--basegreen);
+  }
+
+  .industry-tile-mid-section h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .industry-tile-body,
+  .industry-tile-body p {
+    width: 95%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+  }
+
+  .indusrty-tile-button a {
+    text-decoration: none;
+  }
+
+  .indusrty-tile-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .indusrty-tile-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+/*================
+shared ATTR
+================== */
+/* ==================
+keyframe animation
+==================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .index-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: zoomAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes zoomAnimation {
+    0% {
+      background-size: 100%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  /* Ensure responsiveness */
+  .background-container {
+    background-size: cover;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+
+/* ===================
+shared-three-container
+========================*/
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .shared-three-container {
+    width: 100%;
+  }
+
+  .shared-three-header {
+    box-shadow: 1px 1px 1.5px 1.25px black;
+    width: 80%;
+    background-color: whitesmoke;
+    margin: 2rem auto 0;
+    border: none;
+    border-radius: 3px;
+    margin-right: auto;
+  }
+
+  .shared-three-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .shared-three-header p {
+    text-align: center;
+    font-size: 1rem;
+    width: 90%;
+    font-weight: 450;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-three-grid {
+    display: grid;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .shared-three-tile-container {
+    width: 70%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+
+  }
+
+  .keyframe-img img {
+    width: 100%;
+    height: 14rem;
+  }
+
+  .shared-three-title {
+    margin: 0 0.25rem 0;
+    color: var(--basegreen);
+  }
+
+  .shared-three-title h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .shared-three-tile-header {
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .shared-three-tile-header h4 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .shared-three-text {
+    width: 90%;
+    margin: 0 1rem 0.75rem;
+  }
+
+  .shared-three-text p {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 450;
+  }
+
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+/* =======================
+shared-reasons-why__container
+============================*/
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .shared-reasons-why__container {
+    width: 100%;
+  }
+  .shared-reasons-why-header, .shared-reasons-why-header h4 {
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+  }
+  .shared-reasons-why-grid-01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .shared-reasons-why-grid-02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .shared-reasons-why-tile {
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+  .shared-reasons-why-img img {
+    width: 3rem;
+    display: block;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+  .shared-reasons-why-tile-header {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+  .shared-reasons-why-tile-header h4 {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .shared-reasons-why-tile-body {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+  .shared-reasons-why-tile-body p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+/* =====================
+shared-contact-form
+======================= */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .contact-section {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+    width: 85vw;
+    padding: 2vh 2vw 5vh;
+    height: auto;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .contact-intro>*+* {
+    margin-top: 1vh;
+  }
+
+  .contact-title {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0 0 2vh;
+  }
+
+  .contact-description {
+    color: black;
+    opacity: 1;
+    font-size: 1.2rem;
+  }
+
+  .form-group-container {
+    display: grid;
+    gap: 1rem;
+    margin: 2vh 0 0;
+  }
+
+  .form-group {
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+
+  .form-input,
+  .form-textarea {
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0.375rem;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+  }
+
+  .form-input::placeholder,
+  .form-textarea:focus-visible {
+    font-size: 0.8rem;
+    color: #6b7280;
+  }
+
+  .form-input:focus-visible,
+  .form-textarea:focus-visible {
+    outline: 2px solid black;
+    outline-offset: 2px;
+  }
+
+  .form-textarea {
+    min-height: 120px;
+  }
+
+  .form-submit {
+    width: 100%;
+    margin-top: 1.2rem;
+    background-color: #f18686;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 1.5vh 1vw;
+    border-radius: 0.375rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+/* ==========================
+shared-index-image-container
+=============================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .shared-index-image-container {
+    background-image: url(img/colorful-flower-garden.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: barAnimation 10s infinite alternate;
+  }
+
+  /* Keyframe animation */
+  @keyframes barAnimation {
+    0% {
+      background-size: 110%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  /* Ensure responsiveness */
+  .shared-index-image-container {
+    background-size: cover;
+  }
+
+  .shared-index-padding-image-container {
+    padding: 2.5rem 0 5rem;
+  }
+
+  .shared-index-image-text-body {
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-index-image-text-body h4 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .shared-index-image-text-button {
+    width: 100%;
+  }
+
+  .shared-index-image-text-button a {
+    text-decoration: none;
+  }
+
+  .shared-index-text-body-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0.5rem 0.95rem 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-index-text-body-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+/*================
+Navigation bar
+================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .nav {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+    display: flex;
+    align-items: center;
+  }
+
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 3.5rem;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem;
+  }
+
+  .nav>.nav-list {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+  }
+
+  .nav>#nav-check {
+    display: none;
+  }
+
+  .nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0.15rem;
+  }
+
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.85rem;
+  }
+
+  .nav>.nav-btn>label>span {
+    display: block;
+    width: 1.95rem;
+    padding: 0.225em;
+    border-top: 3.65px solid white;
+  }
+
+  .nav>.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 3rem;
+    left: 0;
+    z-index: 1;
+    opacity: 0.9;
+    overflow: hidden;
+  }
+
+  .nav>.nav-list>li {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem 0 0.5rem;
+    margin: 0;
+  }
+
+  .nav>#nav-check:checked~.nav-list {
+    height: calc(46vh - 50px);
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+/*================
+Footer
+================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #00a878;
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
+
+  .footer-img img {
+    width: 3.75rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0.75px 0.75px 1px 0.5px black;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  .footer-colunm-01-text {
+    display: none;
+  }
+
+  .footer-colunm-01-social {
+    width: 90%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .footer-colunm-01-social a {
+    color: white;
+    font-size: 1rem;
+    margin: 0 0.25rem 0;
+  }
+
+  .footer-colunm-02-header,
+  .footer-colunm-03-header,
+  .footer-colunm-04-header {
+    width: 95%;
+    font-size: 1.1rem;
+    margin: 0 auto 0;
+    color: black;
+    opacity: 0.5;
+    font-weight: 600;
+    margin-right: auto;
+  }
+
+  .footer-colunm-02-list a,
+  .footer-colunm-03-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .footer-colunm-04-list {
+    padding: 0.25rem 0.5rem 0;
+  }
+
+  .footer-colunm-04-list a {
+    color: white;
+    margin: 0.35em;
+    font-size: 0.9rem;
+  }
+
+  .footer-colunm-04-list li {
+    color: white;
+    list-style-type: none;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  .footer-colunm-02-list li,
+  .footer-colunm-03-list li {
+    list-style-type: none;
+    padding: 0.25rem 0.5rem 0;
+    text-decoration: underline;
+    width: 100%;
+  }
+
+  .designed-by__container {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
+
+  .designed-by__container h4 {
+    text-align: center;
+    padding: 0.25em;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+
+@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+
+@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+
+@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+
+@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
