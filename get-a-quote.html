@@ -1,11 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/lanscape-logo-example.png" type="image/x-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Quote</title>
 </head>
+
 <body>
- 
+  <nav class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        Company Name
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="use-cases.html">Use Cases</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="get-a-quote.html">Get Quote</a></li>
+      <li><a href="landscaping-maintenance.html">Landscaping Maintenance</a></li>
+    </ul>
+  </nav>
+    <div class="get-quote-image-container">
+      <div class="get-quote-image-header">
+        <h4>
+          Company Name
+        </h4>
+        <div class="get-quote-image-subheader">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestiae molestias, sunt placeat culpa
+            vitae.
+          </p>
+        </div>
+        <div class="get-quote-button">
+          <a href="index.html"><button class="get-quote-btn">Return Home</button></a>
+        </div>
+      </div>
+      <div class="index-form-padding__container">
+        <div class="shared-form-container">
+          <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(xxx) xxx-xxxx" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Example@example.com" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Project location" required>
+
+            <label for="service">Service Required:</label>
+            <select id="service" name="service" required>
+              <option value="">Select an option</option>
+              <option value="landScaping">Landscape Maintenance</option>
+              <option value="treeCare">Tree Care</option>
+              <option value="irrigation">Irrigation Management </option>
+              <option value="weedServices">Weed Services </option>
+              <option value="porterServices">Porter Services </option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+
+            <button class="shared-form-btn" type="submit">Submit</button>
+          </form>
+          <div id="formResponse"></div>
+        </div>
+      </div>
+      <div class="shared-social-bar">
+        <div class="shared-social-bar-header">
+          <h4>
+            Check out some of the reviews left by clients on third party websites.
+          </h4>
+        </div>
+        <div class="shared-social-bar-grid">
+          <div class="shared-social-bar-tile">
+            <div class="shared-social-bar-image">
+              <img src="img/yelp.png" alt="">
+            </div>
+            <div class="shared-social-bar-link">
+              <a href="">Yelp</a>
+            </div>
+          </div>
+          <div class="shared-social-bar-tile">
+            <div class="shared-social-bar-image">
+              <img src="img/ANGI-10fb103e.png" alt="">
+            </div>
+            <div class="shared-social-bar-link">
+              <a href="">Angie's List</a>
+            </div>
+          </div>
+          <div class="shared-social-bar-tile">
+            <div class="shared-social-bar-image">
+              <img src="img/nextdoor-logo.png" alt="">
+            </div>
+            <div class="shared-social-bar-link">
+              <a href="">Nextdoor</a>
+            </div>
+          </div>
+          <div class="shared-social-bar-tile">
+            <div class="shared-social-bar-image">
+              <img src="img/google.png" alt="">
+            </div>
+            <div class="shared-social-bar-link">
+              <a href="">Google Reviews</a>
+            </div>
+          </div>
+          <div class="shared-social-bar-tile">
+            <div class="shared-social-bar-image">
+              <img src="img/facebook (1).png" alt="">
+            </div>
+            <div class="shared-social-bar-link">
+              <a href="">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        .shared-social-bar-header h4 {
+          color: white;
+        }
+      </style>
+    </div>
 </body>
+
 </html>

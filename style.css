@@ -154,14 +154,15 @@ index.html
     margin-right: auto;
   }
 
-  .indusrty-tile-button a {
+  .industry-tile-button a {
     text-decoration: none;
   }
 
-  .indusrty-tile-btn {
+  .industry-tile-btn {
     display: block;
     border: none;
     border-radius: 3px;
+    color: black;
     cursor: pointer;
     margin: 0.75rem auto 1rem;
     background-color: var(--basegreen);
@@ -171,10 +172,86 @@ index.html
     transition: all 0.3s ease-in-out;
   }
 
-  .indusrty-tile-btn:hover {
+  .industry-tile-btn:hover {
     opacity: 0.7;
     font-weight: 600;
     box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .index-form-padding__container {
+    margin: 1rem 0 1rem;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+/* ===================
+get-quote.html
+==================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .get-quote-image-container {
+    padding: 1.5rem 0 0;
+    background-image: url(img/8-web-or-mls-4347Brookview-Dr-8-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .get-quote-image-header {
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 70%;
+    padding: 0 0 0.75rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .get-quote-image-header h4 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .get-quote-image-subheader p {
+    font-size: 1rem;
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .get-quote-button a {
+    text-decoration: none;
+  }
+
+  .get-quote-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    margin: 0.5rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .get-quote-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: white;
   }
 }
 
@@ -191,6 +268,76 @@ index.html
 /*================
 shared ATTR
 ================== */
+/*====================== 
+  irrigation.html
+  porter-services.html
+  tree-maintenance
+  weed-control.html
+========================*/
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+/* ===========================
+shared-top-contact-container
+============================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .shared-top-contact-container {
+    border: none;
+    padding: 0.35em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 70%;
+    margin: 1.5rem auto 1rem;
+    margin-right: auto;
+  }
+
+  .shared-top-contact-header,
+  .shared-top-contact-header h4 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .shared-top-body-button {
+    width: 100%;
+    display: block;
+  }
+  .shared-top-contact-btn {
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem 1rem 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+  .shared-top-contact-btn:hover {
+    opacity: 0.7;
+    font-weight: 500;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
 /* ==================
 keyframe animation
 ==================== */
@@ -408,7 +555,7 @@ shared-contact-form
 @media only screen and (320px <=width <=768px) and (orientation:portrait) {
   .shared-form-container {
     background: white;
-    padding: 0.25rem;
+    padding: 0.5rem;
     margin: 0 auto 0;
     margin-right: auto;
     border-radius: 8px;
@@ -418,6 +565,8 @@ shared-contact-form
 
   label {
     display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
     margin: 0.25rem 0 0.25rem;
   }
 
@@ -431,7 +580,7 @@ shared-contact-form
     border-radius: 4px;
   }
 
-  button {
+  .shared-form-btn {
     padding: 0.35em;
     border: none;
     width: 95%;
@@ -445,7 +594,7 @@ shared-contact-form
     cursor: pointer;
   }
 
-  button:hover {
+  .shared-form-btn:hover {
     background-color: var(--basegreen);
     opacity: 0.7;
   }
@@ -454,6 +603,71 @@ shared-contact-form
     outline: auto;
     margin-top: 1.75rem;
   }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+
+/* =================
+shared-social-bar
+==================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .shared-social-bar {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-header,
+  .shared-social-bar-header h4 {
+    width: 90%;
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0.035rem black;
+    text-align: center;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-grid {
+    display: flex;
+    width: 100%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-tile {
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-image img {
+    width: 3rem;
+    height: 3.5rem;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-link,
+  .shared-social-bar-link a {
+    margin: 0 auto 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-right: auto;
+    color: black;
+  }
+
+
 }
 
 @media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
@@ -475,6 +689,7 @@ shared-index-image-container
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 4rem 0 1rem;
     animation: barAnimation 10s infinite alternate;
   }
 
@@ -606,6 +821,7 @@ Navigation bar
 
   .nav>.nav-btn>label>span {
     display: block;
+    cursor: pointer;
     width: 1.95rem;
     padding: 0.225em;
     border-top: 3.65px solid white;
@@ -638,7 +854,7 @@ Navigation bar
   }
 
   .nav>#nav-check:checked~.nav-list {
-    height: calc(46vh - 50px);
+    height: calc(53vh - 50px);
   }
 }
 
@@ -670,16 +886,16 @@ Footer
     border-radius: 3px;
     box-shadow: 0.75px 0.75px 1px 0.5px black;
     display: block;
-    margin: 0 auto 0;
+    margin: 0.35rem auto 0;
     margin-right: auto;
     background-color: white;
   }
 
-  .footer-colunm-01-text {
+  .footer-column-01-text {
     display: none;
   }
 
-  .footer-colunm-01-social {
+  .footer-column-01-social {
     width: 90%;
     margin: 0.75rem auto 0;
     margin-right: auto;
@@ -687,17 +903,17 @@ Footer
     display: block;
   }
 
-  .footer-colunm-01-social a {
+  .footer-column-01-social a {
     color: white;
     font-size: 1rem;
     margin: 0 0.25rem 0;
   }
 
-  .footer-colunm-02-header,
-  .footer-colunm-03-header,
-  .footer-colunm-04-header {
+  .footer-column-02-header,
+  .footer-column-03-header,
+  .footer-column-04-header {
     width: 95%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0 auto 0;
     color: black;
     opacity: 0.5;
@@ -705,32 +921,32 @@ Footer
     margin-right: auto;
   }
 
-  .footer-colunm-02-list a,
-  .footer-colunm-03-list a {
+  .footer-column-02-list a,
+  .footer-column-03-list a {
     text-decoration: none;
     color: white;
-    font-size: 1rem;
-  }
-
-  .footer-colunm-04-list {
-    padding: 0.25rem 0.5rem 0;
-  }
-
-  .footer-colunm-04-list a {
-    color: white;
-    margin: 0.35em;
     font-size: 0.9rem;
   }
 
-  .footer-colunm-04-list li {
+  .footer-column-04-list {
+    padding: 0.25rem 0.5rem 0;
+  }
+
+  .footer-column-04-list a {
+    color: white;
+    margin: 0.37em;
+    font-size: 0.9rem;
+  }
+
+  .footer-column-04-list li {
     color: white;
     list-style-type: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin: 0.5rem 0;
   }
 
-  .footer-colunm-02-list li,
-  .footer-colunm-03-list li {
+  .footer-column-02-list li,
+  .footer-column-03-list li {
     list-style-type: none;
     padding: 0.25rem 0.5rem 0;
     text-decoration: underline;
@@ -763,7 +979,7 @@ Footer
 
 
 
-@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {}
 
 @media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
 
@@ -776,17 +992,7 @@ Footer
 @media only screen and (1400px <=width) {}
 
 
-@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
-
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
-
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
-
-@media only screen and (1025px <=width <=1399px) {}
-
-@media only screen and (1400px <=width) {}
 
 
 @media only scree and (320px <=width <=768px) and (orientation:portrait) {}
