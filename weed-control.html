@@ -78,7 +78,8 @@
               molestiae minus maiores! Officiis repellat culpa modi iusto, debitis ullam laudantium</span>
           </li>
           <li>
-            Attention to detail: <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis beatae
+            Attention to detail: <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis
+              beatae
               molestiae minus maiores! Officiis repellat culpa modi iusto, debitis ullam laudantium</span>
           </li>
           <li>
@@ -92,7 +93,368 @@
       </div>
     </div>
     <div class="shared-services-column-02-image">
-      <img src="" alt="">
+      <div class="shared-services-column-02-padding__container">
+        <div class="shared-services-column-02-container">
+          <div class="shared-services-column-02-header">
+            <h4>
+              Are you needing one-time or recurring weed management for your residential or business needs?
+            </h4>
+          </div>
+          <div class="shared-services-column-02-body">
+            <p> Get a quote from us!</p>
+          </div>
+          <div class="shared-services-column-02-button">
+            <a href="get-a-quote.html"><button class="shared-services-column-02-btn">Get Quote</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="shared-image-carousel-container">
+      <section aria-label="Newest Photos">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="slide" data-active> <img src="img/weed-ex-01.webp" alt="example01"></li>
+            <li class="slide"> <img src="img/weed-ex-02a.jpg" alt="example02"></li>
+            <li class="slide"> <img src="img/weed-ex-03.jpeg" alt="example03"></li>
+            <li class="slide"> <img src="img/weed-ex-04.jpeg" alt="example05"></li>
+            <li class="slide"> <img src="" alt="example06"></li>
+            <li class="slide"> <img src="" alt="example07"></li>
+            <li class="slide"> <img src="" alt="example08"></li>
+            <li class="slide"> <img src="" alt="example09"></li>
+            <li class="slide"> <img src="" alt="example10"></li>
+            <li class="slide"> <img src="" alt="example11"></li>
+            <li class="slide"> <img src="" alt="example12"></li>
+            <li class="slide"> <img src="" alt="example13"></li>
+            <li class="slide"> <img src="" alt="example13"></li>
+            <li class="slide"> <img src="" alt="example13"></li>
+            <li class="slide"> <img src="" alt="example13"></li>
+            <li class="slide"> <img src="" alt="example14"></li>
+            <li class="slide"> <img src="" alt="example15"></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </section>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll("[data-carousel-button]");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const offset = button.dataset.carouselButton === "next" ? 1 : -1;
+      const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
+
+      const activeSlide = slides.querySelector("[data-active]");
+      let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+      
+      // Handle wrapping around
+      if (newIndex < 0) newIndex = slides.children.length - 1;
+      if (newIndex >= slides.children.length) newIndex = 0;
+
+      // Deactivate all slides
+      [...slides.children].forEach(slide => delete slide.dataset.active);
+      
+      // Activate the new slide
+      slides.children[newIndex].dataset.active = true;
+    });
+  });
+});
+  </script>
+  <section>
+    <div class="shared-reviews-container">
+      <div class="shared-reviews-header">
+        <h4>
+          See what our clients have to say.
+        </h4>
+      </div>
+      <div class="shared-reviews-grid">
+        <div class="shared-reviews-tile">
+          <div class="shared-reviews-top-sec">
+            <div class="reviews-top-sec-left">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="reviews-top-sec-right">
+              <img src="img/yelp.png" alt="">
+            </div>
+          </div>
+          <div class="shared-reviews-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae ea quisquam delectus atque quidem
+              deleniti similique dolor, qui maxime dolore aut, at provident amet?
+            </p>
+          </div>
+          <div class="shared-reviews-bot-sec">
+            <div class="bot-reviews-sec-img">
+              <img src="img/user.png" alt="">
+            </div>
+            <div class="bot-reviews-sec-name">
+              <h4>
+                Joel Moore
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="shared-reviews-tile">
+          <div class="shared-reviews-top-sec">
+            <div class="reviews-top-sec-left">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="reviews-top-sec-right">
+              <img src="img/google.png" alt="">
+            </div>
+          </div>
+          <div class="shared-reviews-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae ea quisquam delectus atque quidem
+              deleniti similique dolor, qui maxime dolore aut, at provident amet?
+            </p>
+          </div>
+          <div class="shared-reviews-bot-sec">
+            <div class="bot-reviews-sec-img">
+              <img src="img/user.png" alt="">
+            </div>
+            <div class="bot-reviews-sec-name">
+              <h4>
+                Joel Moore
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="shared-reviews-tile">
+          <div class="shared-reviews-top-sec">
+            <div class="reviews-top-sec-left">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="reviews-top-sec-right">
+              <img src="img/google.png" alt="">
+            </div>
+          </div>
+          <div class="shared-reviews-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae ea quisquam delectus atque quidem
+              deleniti similique dolor, qui maxime dolore aut, at provident amet?
+            </p>
+          </div>
+          <div class="shared-reviews-bot-sec">
+            <div class="bot-reviews-sec-img">
+              <img src="img/user.png" alt="">
+            </div>
+            <div class="bot-reviews-sec-name">
+              <h4>
+                Joel Moore
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="shared-reviews-tile">
+          <div class="shared-reviews-top-sec">
+            <div class="reviews-top-sec-left">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="reviews-top-sec-right">
+              <img src="img/yelp.png" alt="">
+            </div>
+          </div>
+          <div class="shared-reviews-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae ea quisquam delectus atque quidem
+              deleniti similique dolor, qui maxime dolore aut, at provident amet?
+            </p>
+          </div>
+          <div class="shared-reviews-bot-sec">
+            <div class="bot-reviews-sec-img">
+              <img src="img/user.png" alt="">
+            </div>
+            <div class="bot-reviews-sec-name">
+              <h4>
+                Joel Moore
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="shared-reviews-tile">
+          <div class="shared-reviews-top-sec">
+            <div class="reviews-top-sec-left">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="reviews-top-sec-right">
+              <img src="img/yelp.png" alt="">
+            </div>
+          </div>
+          <div class="shared-reviews-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae ea quisquam delectus atque quidem
+              deleniti similique dolor, qui maxime dolore aut, at provident amet?
+            </p>
+          </div>
+          <div class="shared-reviews-bot-sec">
+            <div class="bot-reviews-sec-img">
+              <img src="img/user.png" alt="">
+            </div>
+            <div class="bot-reviews-sec-name">
+              <h4>
+                Joel Moore
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="shared-reviews-tile">
+          <div class="shared-reviews-top-sec">
+            <div class="reviews-top-sec-left">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="reviews-top-sec-right">
+              <img src="img/yelp.png" alt="">
+            </div>
+          </div>
+          <div class="shared-reviews-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae ea quisquam delectus atque quidem
+              deleniti similique dolor, qui maxime dolore aut, at provident amet?
+            </p>
+          </div>
+          <div class="shared-reviews-bot-sec">
+            <div class="bot-reviews-sec-img">
+              <img src="img/user.png" alt="">
+            </div>
+            <div class="bot-reviews-sec-name">
+              <h4>
+                Joel Moore
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="shared-uses-container">
+      <div class="shared-uses-header">
+        <h4>
+          Different Scenarios To Use Our Services
+        </h4>
+      </div>
+      <div class="shared-uses-grid">
+        <div class="shared-image-tile-01">
+          <div class="shared-image-tile-text">
+            <h4>
+              Residential Lawn Care
+            </h4>
+          </div>
+        </div>
+        <div class="shared-image-tile-02">
+          <div class="shared-image-tile-text">
+            <h4>
+              HOA Property Maintenance
+            </h4>
+          </div>
+        </div>
+        <div class="shared-image-tile-03">
+          <div class="shared-image-tile-text">
+            <h4>
+              Multiple Property Maintenance
+            </h4>
+          </div>
+        </div>
+        <div class="shared-image-tile-04">
+          <div class="shared-image-tile-text">
+            <h4>
+              Vacation Rentals
+            </h4>
+          </div>
+        </div>
+        <div class="shared-image-tile-05">
+          <div class="shared-image-tile-text">
+            <h4>
+              Foreclosed Properties
+            </h4>
+          </div>
+        </div>
+        <div class="shared-image-tile-06">
+          <div class="shared-image-tile-text">
+            <h4>
+              Real Estate Open Houses
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="shared-social-bar">
+    <div class="shared-social-bar-header">
+      <h4>
+        Check out some of the reviews left by clients on third party websites.
+      </h4>
+    </div>
+    <div class="shared-social-bar-grid">
+      <div class="shared-social-bar-tile">
+        <div class="shared-social-bar-image">
+          <img src="img/yelp.png" alt="">
+        </div>
+        <div class="shared-social-bar-link">
+          <a href="">Yelp</a>
+        </div>
+      </div>
+      <div class="shared-social-bar-tile">
+        <div class="shared-social-bar-image">
+          <img src="img/ANGI-10fb103e.png" alt="">
+        </div>
+        <div class="shared-social-bar-link">
+          <a href="">Angie's List</a>
+        </div>
+      </div>
+      <div class="shared-social-bar-tile">
+        <div class="shared-social-bar-image">
+          <img src="img/nextdoor-logo.png" alt="">
+        </div>
+        <div class="shared-social-bar-link">
+          <a href="">Nextdoor</a>
+        </div>
+      </div>
+      <div class="shared-social-bar-tile">
+        <div class="shared-social-bar-image">
+          <img src="img/google.png" alt="">
+        </div>
+        <div class="shared-social-bar-link">
+          <a href="">Google Reviews</a>
+        </div>
+      </div>
+      <div class="shared-social-bar-tile">
+        <div class="shared-social-bar-image">
+          <img src="img/facebook (1).png" alt="">
+        </div>
+        <div class="shared-social-bar-link">
+          <a href="">Facebook</a>
+        </div>
+      </div>
     </div>
   </div>
   <footer>

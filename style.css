@@ -265,16 +265,673 @@ get-quote.html
 
 @media only screen and (1400px <=width) {}
 
+/*===================
+ reviews.html
+ ==================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .reviews-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage_23-2151748280.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 160%;
+    }
+
+    100% {
+      background-size: 175%;
+    }
+  }
+
+  .reviews-keyframe-padding-container {
+    padding: 5rem 0 5rem;
+  }
+
+  .reviews-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .reviews-keyframe-header,
+  .reviews-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 1.8rem;
+  }
+
+  .reviews-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .reviews-keyframe-text h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .reviews-keyframe-text i {
+    color: gold;
+    font-size: 1.2rem;
+  }
+
+  .reviews-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1rem;
+  }
+
+  .reviews-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .reviews-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 2.75rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .reviews-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+/* ==================
+use-cases.html
+==================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .use-cases-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/cases-hero.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 155%;
+    }
+
+    100% {
+      background-size: 170%;
+    }
+  }
+
+  .use-cases-keyframe-padding-container {
+    padding: 5rem 0 5rem;
+  }
+
+  .use-cases-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .use-cases-keyframe-header,
+  .use-cases-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 1.8rem;
+  }
+
+  .use-cases-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .use-cases-keyframe-text h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .use-cases-keyframe-text i {
+    color: gold;
+    font-size: 1.2rem;
+  }
+
+  .use-cases-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1rem;
+  }
+
+  .use-cases-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .use-cases-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 2.75rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .use-cases-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .lawn-care-services__container {
+    width: 100%;
+  }
+
+  .lawn-care-services-header,
+  .lawn-care-services-header h4 {
+    text-align: center;
+    width: 95%;
+    font-size: 1.5rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+    color: var(--basegreen);
+  }
+
+  .lawn-care-services-subheader,
+  .lawn-care-services-subheader p {
+    width: 95%;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .lawn-care-services-list,
+  .lawn-care-services-list ul {
+    width: 90%;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+  .lawn-care-services-list ul li {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+  .lawn-care-services-list ul li span {
+    font-weight: 400;
+  }
+  .lawn-care-services-button {
+    width: 100%;
+    display: block;
+  }
+  .lawn-care-services-button a {
+    text-decoration: none;
+  }
+  .lawn-care-services-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+  .lawn-care-services-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
 /*================
 shared ATTR
 ================== */
+
+
+/* ============================
+shared-offered-tile__container
+================================*/
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .shared-offered-tile__container {
+    width: 100%;
+  }
+
+  .shared-offered-tile-header,
+  .shared-offered-tile-header h4 {
+    width: 85%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+    padding: 0.25em;
+  }
+
+  .shared-offered-grid {
+    display: grid;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-offered-tile-image-01,
+  .shared-offered-tile-image-02,
+  .shared-offered-tile-image-03,
+  .shared-offered-tile-image-04,
+  .shared-offered-tile-image-05,
+  .shared-offered-tile-image-06 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2.5rem 0 2.5rem;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .shared-offered-tile-image-01:hover,
+  .shared-offered-tile-image-02:hover,
+  .shared-offered-tile-image-03:hover,
+  .shared-offered-tile-image-04:hover,
+  .shared-offered-tile-image-05:hover,
+  .shared-offered-tile-image-06:hover {
+    margin: 0.15em;
+  }
+
+  .shared-offered-tile-image-01 {
+    background-image: url(img/custom-tile.jpg);
+  }
+
+  .shared-offered-tile-image-02 {
+    background-image: url(img/hardscape-tile.jpg);
+  }
+
+  .shared-offered-tile-image-03 {
+    background-image: url(img/artifical-tile.jpg);
+  }
+
+  .shared-offered-tile-image-04 {
+    background-image: url(img/irrigation-tile.jpg);
+  }
+
+  .shared-offered-tile-image-05 {
+    background-image: url(img/outdoor-lighting.jpg);
+  }
+
+  .shared-offered-tile-image-06 {
+    background-image: url(img/landscaping-maint-tile.webp);
+  }
+
+  .shared-offered-tile-text {
+    border: none;
+    width: 70%;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 0.9;
+  }
+
+  .shared-offered-tile-text p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .shared-offered-button {
+    width: 100%;
+  }
+
+  .shared-offered-button a {
+    text-decoration: none;
+  }
+
+  .shared-offered-btn {
+    display: block;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-offered-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: black;
+    opacity: 0.8;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
 /*====================== 
   irrigation.html
   porter-services.html
   tree-maintenance
   weed-control.html
 ========================*/
-@media only screen and (320px <=width <=768px) and (orientation:portrait) {}
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+
+  .shared-services-top-header,
+  .shared-services-top-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .shared-services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .shared-services-column-01 {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-01-header,
+  .shared-services-column-01-header h4 {
+    color: var(--basegreen);
+    font-size: 1.4rem;
+    width: 100%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: right;
+  }
+
+  .shared-services-column-01-hero-text,
+  .shared-services-column-01-hero-text p {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-image {
+    outline: auto;
+    width: 100%;
+  }
+
+  .shared-services-column-01-list {
+    width: 85%;
+    text-align: left;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 600;
+  }
+
+  .shared-services-column-01-list span {
+    font-weight: 400;
+  }
+
+  .shared-services-column-01-list ul li {
+    padding: 0 0 0.5rem;
+  }
+
+  .shared-services-column-01-button {
+    width: 100%;
+  }
+
+  .shared-services-column-01-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-01-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-01-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-services-column-02-image {
+    background-image: url(img/pre-emergent-weed-control-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: sharedAnimation 10s infinite alternate;
+  }
+
+  @keyframes sharedAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .shared-services-column-02-padding__container {
+    padding: 2.5rem 0 5rem;
+  }
+
+  .shared-services-column-02-container {
+    width: 70%;
+    background-color: white;
+    opacity: 0.9;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 0;
+    padding: 0 0 1rem;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-header,
+  .shared-services-column-02-header h4 {
+    text-align: center;
+    width: 95%;
+    padding: 0.15em;
+    font-size: 1.1rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-body,
+  .shared-services-column-02-body p {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-size: 1.1rem;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .shared-services-column-02-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-02-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-02-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-uses-container {
+    width: 100%;
+  }
+
+  .shared-uses-grid {
+    display: grid;
+    margin: 0.25rem 0 0.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-uses-header,
+  .shared-uses-header h4 {
+    width: 95%;
+    margin: 0 auto 0.25rem;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .shared-image-tile-01,
+  .shared-image-tile-02,
+  .shared-image-tile-03,
+  .shared-image-tile-04,
+  .shared-image-tile-05,
+  .shared-image-tile-06 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em 0;
+    transition: all 0.2s ease;
+  }
+
+  .shared-image-tile-01:hover,
+  .shared-image-tile-02:hover,
+  .shared-image-tile-03:hover,
+  .shared-image-tile-04:hover,
+  .shared-image-tile-05:hover,
+  .shared-image-tile-06:hover {
+    margin: 0.15em;
+  }
+
+  .shared-image-tile-01 {
+    background-image: url(img/view-water-tank-storage.jpg);
+  }
+
+  .shared-image-tile-02 {
+    background-image: url(img/hoa-tile.webp);
+  }
+
+  .shared-image-tile-03 {
+    background-image: url(img/multiple-tile.jpg);
+  }
+
+  .shared-image-tile-04 {
+    background-image: url(img/vacation-tile.avif);
+  }
+
+  .shared-image-tile-05 {
+    background-image: url(img/foreclosed-tile.webp);
+  }
+
+  .shared-image-tile-06 {
+    background-image: url(img/buying-foreclosed-home-with-fha-loan.jpg);
+  }
+
+  .shared-image-tile-text {
+    width: 90%;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+
+  }
+
+  .shared-image-tile-text h4 {
+    font-size: 0.9rem;
+  }
+}
 
 @media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
 
@@ -305,22 +962,25 @@ shared-top-contact-container
     text-align: center;
     font-size: 1.2rem;
   }
+
   .shared-top-body-button {
     width: 100%;
     display: block;
   }
+
   .shared-top-contact-btn {
     border: none;
     border-radius: 3px;
     color: black;
     cursor: pointer;
-    margin: 0.75rem 1rem 1rem;
+    margin: 0.75rem 0.85rem 1rem;
     background-color: var(--basegreen);
     margin-right: auto;
     font-size: 1.1rem;
     padding: 0.25em;
     transition: all 0.3s ease-in-out;
   }
+
   .shared-top-contact-btn:hover {
     opacity: 0.7;
     font-weight: 500;
@@ -363,11 +1023,6 @@ keyframe animation
     100% {
       background-size: 120%;
     }
-  }
-
-  /* Ensure responsiveness */
-  .background-container {
-    background-size: cover;
   }
 }
 
@@ -616,6 +1271,87 @@ shared-contact-form
 @media only screen and (1400px <=width) {}
 
 
+/* ======================
+ shared-reviews-container
+ =========================*/
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .shared-reviews-container {
+    width: 100%;
+  }
+
+  .shared-reviews-header,
+  .shared-reviews-header h4 {
+    width: 95%;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .shared-reviews-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reviews-tile {
+    width: 95%;
+    position: relative;
+    margin: 0 auto 0.75rem;
+    margin-right: auto;
+  }
+
+  .shared-reviews-top-sec {
+    display: block;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1.5px 1px black;
+
+  }
+
+  .reviews-top-sec-left {
+    color: gold;
+    margin: 0.25rem 0.25rem 0;
+    font-size: 1rem;
+  }
+
+  .reviews-top-sec-right img {
+    width: 2rem;
+    margin: 0.25rem 0.25rem 0;
+  }
+
+  .shared-reviews-text,
+  .shared-reviews-text p {
+    width: 95%;
+    font-weight: 450;
+    font-size: 1rem;
+    margin: 0.25rem 0.25rem 0;
+    margin-right: auto;
+  }
+
+  .bot-reviews-sec-img img {
+    width: 2.5rem;
+    margin: 0.25rem 0.5rem 0;
+  }
+
+  .bot-reviews-sec-name,
+  .bot-reviews-sec-name h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0.25rem 0.25rem 0;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
 /* =================
 shared-social-bar
 ==================== */
@@ -629,7 +1365,7 @@ shared-social-bar
   .shared-social-bar-header,
   .shared-social-bar-header h4 {
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     -webkit-text-stroke: 0.035rem black;
     text-align: center;
     margin: 0.75rem auto 0;
@@ -749,6 +1485,98 @@ shared-index-image-container
     opacity: 0.7;
     font-weight: 600;
     box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+
+@media only screen and (1025px <=width <=1399px) {}
+
+@media only screen and (1400px <=width) {}
+
+/* ================================
+shared-image-carousel-container
+================================== */
+@media only screen and (320px <=width <=768px) and (orientation:portrait) {
+  .shared-image-carousel-container {
+    position: relative;
+    width: 95%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px black;
+    height: 25rem;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .carousel1 {
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+  }
+
+  .carousel>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+
+  .slide[data-active] {
+    opacity: 1;
+    transition-delay: 0;
+    z-index: 1;
+  }
+
+  .slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5vh 1vw;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel-button:focus {
+    outline: 1px solid black;
+  }
+
+  .carousel-button.prev {
+    left: 2vw;
+  }
+
+  .carousel-button.next {
+    right: 2vw;
   }
 }
 
@@ -979,36 +1807,16 @@ Footer
 
 
 
+
+
+
+
+
+
+
+
+
 @media only screen and (320px <=width <=768px) and (orientation:portrait) {}
-
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
-
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
-
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
-
-@media only screen and (1025px <=width <=1399px) {}
-
-@media only screen and (1400px <=width) {}
-
-
-
-
-
-@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
-
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
-
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
-
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
-
-@media only screen and (1025px <=width <=1399px) {}
-
-@media only screen and (1400px <=width) {}
-
-
-@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
 
 @media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
 
