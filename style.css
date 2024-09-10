@@ -3716,8 +3716,6 @@ shared-offered-tile__container
 
   .shared-services-column-01-list ul li {
     padding: 0 0 0.5rem;
-    outline: auto;
-    color: #00a878;
   }
 
   .shared-services-column-01-button {
@@ -4426,7 +4424,6 @@ shared-offered-tile__container
     width: 95%;
     font-size: 1.9rem;
     text-align: center;
-    color: pink;
     margin: 0 auto 0;
     margin-right: auto;
   }
@@ -5147,7 +5144,6 @@ shared-top-contact-container
 
   .shared-top-body-button {
     width: 95%;
-    outline: auto;
     margin: 0 auto 0;
     margin-right: auto;
   }
@@ -5157,7 +5153,7 @@ shared-top-contact-container
     border-radius: 3px;
     color: black;
     cursor: pointer;
-    margin: 0.75rem 2em 1rem;
+    margin: 0.75rem 1.25em 1rem;
     background-color: var(--basegreen);
     margin-right: auto;
     font-size: 1.1rem;
