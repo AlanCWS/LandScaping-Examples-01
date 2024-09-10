@@ -7500,6 +7500,7 @@ shared-index-image-container
   .shared-index-text-body-btn {
     border: none;
     border-radius: 3px;
+    color: white;
     cursor: pointer;
     margin: 0.5rem 0.95rem 0;
     background-color: var(--basegreen);
@@ -7569,6 +7570,7 @@ shared-index-image-container
   .shared-index-text-body-btn {
     border: none;
     border-radius: 3px;
+    color: white;
     cursor: pointer;
     margin: 1.5rem 3.5rem 0;
     background-color: var(--basegreen);
@@ -7639,6 +7641,7 @@ shared-index-image-container
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    color: white;
     margin: 1.5rem 2.65rem 0;
     background-color: var(--basegreen);
     margin-right: auto;
@@ -7708,6 +7711,7 @@ shared-index-image-container
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    color: white;
     margin: 1.5rem 3.75rem 0;
     background-color: var(--basegreen);
     margin-right: auto;
@@ -7777,6 +7781,7 @@ shared-index-image-container
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    color: white;
     margin: 1.5rem 6.25rem 0;
     background-color: var(--basegreen);
     margin-right: auto;
@@ -7846,6 +7851,7 @@ shared-index-image-container
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    color: white;
     margin: 2.5rem 7.5rem 0;
     background-color: var(--basegreen);
     margin-right: auto;
