@@ -183,15 +183,829 @@ index.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .index-keyframe-container-text {
+    width: 75%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .index-keyframe-header,
+  .index-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 2rem;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .index-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .index-keyframe-text h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+  }
 
-@media only screen and (1400px <=width) {}
+  .index-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+
+  .index-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .index-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 1rem 3rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .index-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.5px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .industry-container {
+    width: 100%;
+    margin: 0.25rem 0 0;
+    background-color: whitesmoke;
+  }
+
+  .industry-header,
+  .industry-header h4 {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--basegreen);
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .industry-subheader,
+  .industry-subheader p {
+    width: 85%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .industry-tile-grid {
+    margin: 1.5rem 0 0;
+    width: 95%;
+    margin: 1.25rem auto 0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .industry-tile {
+    box-shadow: 1px 1px 1.5px 1.75px black;
+    width: 95%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 1.75rem;
+    margin-right: auto;
+  }
+
+  .industry-tile-img,
+  .industry-tile-img img {
+    height: 13rem;
+    width: 100%;
+  }
+
+  .industry-tile-mid-section {
+    width: 100%;
+    padding: 0.25em;
+    background-color: var(--basegreen);
+  }
+
+  .industry-tile-mid-section h4 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+  }
+
+  .industry-tile-body,
+  .industry-tile-body p {
+    width: 95%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+  }
+
+  .industry-tile-button a {
+    text-decoration: none;
+  }
+
+  .industry-tile-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 1.25rem auto 2rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .industry-tile-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .index-form-padding__container {
+    margin: 1rem 0 1rem;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .index-keyframe-container-text {
+    width: 75%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .index-keyframe-header,
+  .index-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 2rem;
+  }
+
+  .index-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .index-keyframe-text h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .index-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .index-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .index-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 1rem 3rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .index-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.5px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .industry-container {
+    width: 100%;
+    margin: 0.25rem 0 0;
+    background-color: whitesmoke;
+  }
+
+  .industry-header,
+  .industry-header h4 {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--basegreen);
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .industry-subheader,
+  .industry-subheader p {
+    width: 85%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .industry-tile-grid {
+    margin: 1.5rem 0 0;
+    width: 95%;
+    margin: 1.25rem auto 0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .industry-tile {
+    box-shadow: 1px 1px 1.5px 1.75px black;
+    width: 95%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 1.75rem;
+    margin-right: auto;
+  }
+
+  .industry-tile-img,
+  .industry-tile-img img {
+    height: 11rem;
+    width: 100%;
+  }
+
+  .industry-tile-mid-section {
+    width: 100%;
+    padding: 0.25em;
+    background-color: var(--basegreen);
+  }
+
+  .industry-tile-mid-section h4 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+  }
+
+  .industry-tile-body,
+  .industry-tile-body p {
+    width: 95%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+  }
+
+  .industry-tile-button a {
+    text-decoration: none;
+  }
+
+  .industry-tile-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 1.25rem auto 2rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.2rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .industry-tile-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .index-form-padding__container {
+    margin: 1rem 0 1rem;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+
+  .index-keyframe-container-text {
+    width: 75%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .index-keyframe-header,
+  .index-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 2.4rem;
+  }
+
+  .index-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .index-keyframe-text h4 {
+    font-size: 1.9rem;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .index-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.6rem;
+  }
+
+  .index-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .index-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 1rem 2.75rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .index-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.5px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .industry-container {
+    width: 100%;
+    margin: 0.25rem 0 0;
+    background-color: whitesmoke;
+  }
+
+  .industry-header,
+  .industry-header h4 {
+    width: 90%;
+    font-size: 2.9rem;
+    text-align: center;
+    color: var(--basegreen);
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .industry-subheader,
+  .industry-subheader p {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .industry-tile-grid {
+    margin: 1.5rem 0 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .industry-tile {
+    box-shadow: 1px 1px 1.5px 1.75px black;
+    width: 55%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 1.5rem;
+    margin-right: auto;
+  }
+
+  .industry-tile-img,
+  .industry-tile-img img {
+    height: 18rem;
+    width: 100%;
+  }
+
+  .industry-tile-mid-section {
+    width: 100%;
+    padding: 0.25em;
+    background-color: var(--basegreen);
+  }
+
+  .industry-tile-mid-section h4 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: white;
+  }
+
+  .industry-tile-body,
+  .industry-tile-body p {
+    width: 95%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+  }
+
+  .industry-tile-button a {
+    text-decoration: none;
+  }
+
+  .industry-tile-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 1.5rem auto 1.75rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .industry-tile-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .index-form-padding__container {
+    margin: 1rem 0 1rem;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .index-keyframe-container-text {
+    width: 75%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .index-keyframe-header,
+  .index-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 2.9rem;
+  }
+
+  .index-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .index-keyframe-text h4 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .index-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.9rem;
+  }
+
+  .index-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .index-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 1rem 4rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .index-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.5px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .industry-container {
+    width: 100%;
+    margin: 0.25rem 0 0;
+    background-color: whitesmoke;
+  }
+
+  .industry-header,
+  .industry-header h4 {
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--basegreen);
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .industry-subheader,
+  .industry-subheader p {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+  .industry-tile-grid {
+    margin: 1.5rem 0 0;
+    width: 85%;
+    margin: 1.25rem auto 0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .industry-tile {
+    box-shadow: 1px 1px 1.5px 1.75px black;
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 1.75rem;
+    margin-right: auto;
+  }
+
+  .industry-tile-img,
+  .industry-tile-img img {
+    height: 18rem;
+    width: 100%;
+  }
+
+  .industry-tile-mid-section {
+    width: 100%;
+    padding: 0.25em;
+    background-color: var(--basegreen);
+  }
+
+  .industry-tile-mid-section h4 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .industry-tile-body,
+  .industry-tile-body p {
+    width: 95%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+  }
+
+  .industry-tile-button a {
+    text-decoration: none;
+  }
+
+  .industry-tile-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 1.5rem auto 2.5rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .industry-tile-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .index-form-padding__container {
+    margin: 1rem 0 1rem;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .index-keyframe-container-text {
+    width: 75%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .index-keyframe-header,
+  .index-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 2.9rem;
+  }
+
+  .index-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .index-keyframe-text h4 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .index-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.9rem;
+  }
+
+  .index-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .index-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 1rem 4rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .index-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.5px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .industry-container {
+    width: 100%;
+    margin: 0.25rem 0 0;
+    background-color: whitesmoke;
+  }
+
+  .industry-header,
+  .industry-header h4 {
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--basegreen);
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .industry-subheader,
+  .industry-subheader p {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+  .industry-tile-grid {
+    margin: 1.5rem 0 0;
+    width: 85%;
+    margin: 1.25rem auto 0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .industry-tile {
+    box-shadow: 1px 1px 1.5px 1.75px black;
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 1.75rem;
+    margin-right: auto;
+  }
+
+  .industry-tile-img,
+  .industry-tile-img img {
+    height: 18rem;
+    width: 100%;
+  }
+
+  .industry-tile-mid-section {
+    width: 100%;
+    padding: 0.25em;
+    background-color: var(--basegreen);
+  }
+
+  .industry-tile-mid-section h4 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .industry-tile-body,
+  .industry-tile-body p {
+    width: 95%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+  }
+
+  .industry-tile-button a {
+    text-decoration: none;
+  }
+
+  .industry-tile-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 1.5rem auto 2.5rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .industry-tile-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .index-form-padding__container {
+    margin: 1rem 0 1rem;
+  }
+}
 
 /* ===================
 get-quote.html
@@ -255,15 +1069,300 @@ get-quote.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .get-quote-image-container {
+    padding: 1.5rem 0 0;
+    background-image: url(img/8-web-or-mls-4347Brookview-Dr-8-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .get-quote-image-header {
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 55%;
+    padding: 0 0 1.5rem;
+    margin: 0 auto 2rem;
+    margin-right: auto;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .get-quote-image-header h4 {
+    text-align: center;
+    font-size: 2.3rem;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .get-quote-image-subheader p {
+    font-size: 1.4rem;
+    width: 85%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 450;
+    text-align: center;
+  }
 
-@media only screen and (1400px <=width) {}
+  .get-quote-button a {
+    text-decoration: none;
+  }
+
+  .get-quote-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    margin: 1rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .get-quote-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: white;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .get-quote-image-container {
+    padding: 1.5rem 0 0;
+    background-image: url(img/8-web-or-mls-4347Brookview-Dr-8-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .get-quote-image-header {
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 55%;
+    padding: 0 0 1.5rem;
+    margin: 0 auto 2rem;
+    margin-right: auto;
+  }
+
+  .get-quote-image-header h4 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+
+  .get-quote-image-subheader p {
+    font-size: 1.2rem;
+    width: 85%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .get-quote-button a {
+    text-decoration: none;
+  }
+
+  .get-quote-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    margin: 1rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .get-quote-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: white;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .get-quote-image-container {
+    padding: 1.5rem 0 0;
+    background-image: url(img/8-web-or-mls-4347Brookview-Dr-8-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .get-quote-image-header {
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 60%;
+    padding: 0 0 1.5rem;
+    margin: 0 auto 2rem;
+    margin-right: auto;
+  }
+
+  .get-quote-image-header h4 {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .get-quote-image-subheader p {
+    font-size: 1.7rem;
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .get-quote-button a {
+    text-decoration: none;
+  }
+
+  .get-quote-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    margin: 1rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.6rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .get-quote-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: white;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .get-quote-image-container {
+    padding: 1.5rem 0 0;
+    background-image: url(img/8-web-or-mls-4347Brookview-Dr-8-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .get-quote-image-header {
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 60%;
+    padding: 0 0 1.5rem;
+    margin: 0 auto 2rem;
+    margin-right: auto;
+  }
+
+  .get-quote-image-header h4 {
+    text-align: center;
+    font-size: 2.6rem;
+  }
+
+  .get-quote-image-subheader p {
+    font-size: 1.6rem;
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .get-quote-button a {
+    text-decoration: none;
+  }
+
+  .get-quote-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    margin: 1rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.5rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .get-quote-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: white;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .get-quote-image-container {
+    padding: 1.5rem 0 0;
+    background-image: url(img/8-web-or-mls-4347Brookview-Dr-8-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .get-quote-image-header {
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 60%;
+    padding: 0 0 1.5rem;
+    margin: 0 auto 2rem;
+    margin-right: auto;
+  }
+
+  .get-quote-image-header h4 {
+    text-align: center;
+    font-size: 2.6rem;
+  }
+
+  .get-quote-image-subheader p {
+    font-size: 1.6rem;
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .get-quote-button a {
+    text-decoration: none;
+  }
+
+  .get-quote-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    margin: 1rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .get-quote-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: white;
+  }
+}
 
 /*===================
  reviews.html
@@ -366,15 +1465,495 @@ get-quote.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .reviews-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage_23-2151748280.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 100%;
+    }
 
-@media only screen and (1025px <=width <=1399px) {}
+    100% {
+      background-size: 115%;
+    }
+  }
 
-@media only screen and (1400px <=width) {}
+  .reviews-keyframe-padding-container {
+    padding: 4rem 0 4rem;
+  }
+
+  .reviews-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .reviews-keyframe-header,
+  .reviews-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 2.1rem;
+  }
+
+  .reviews-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .reviews-keyframe-text h4 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .reviews-keyframe-text i {
+    color: gold;
+    font-size: 1.2rem;
+  }
+
+  .reviews-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1.2rem;
+  }
+
+  .reviews-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .reviews-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 4.5rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .reviews-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .reviews-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage_23-2151748280.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 100%;
+    }
+
+    100% {
+      background-size: 115%;
+    }
+  }
+
+  .reviews-keyframe-padding-container {
+    padding: 3rem 0 3rem;
+  }
+
+  .reviews-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .reviews-keyframe-header,
+  .reviews-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 2rem;
+  }
+
+  .reviews-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .reviews-keyframe-text h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .reviews-keyframe-text i {
+    color: gold;
+    font-size: 1.1rem;
+  }
+
+  .reviews-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1.2rem;
+  }
+
+  .reviews-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .reviews-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 3rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .reviews-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .reviews-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage_23-2151748280.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 100%;
+    }
+
+    100% {
+      background-size: 115%;
+    }
+  }
+
+  .reviews-keyframe-padding-container {
+    padding: 10rem 0 10rem;
+  }
+
+  .reviews-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .reviews-keyframe-header,
+  .reviews-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 3.3rem;
+  }
+
+  .reviews-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .reviews-keyframe-text h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .reviews-keyframe-text i {
+    color: gold;
+    font-size: 1.9rem;
+  }
+
+  .reviews-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1.8rem;
+  }
+
+  .reviews-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .reviews-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 2.75rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .reviews-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .reviews-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage_23-2151748280.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 100%;
+    }
+
+    100% {
+      background-size: 115%;
+    }
+  }
+
+  .reviews-keyframe-padding-container {
+    padding: 10rem 0 10rem;
+  }
+
+  .reviews-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .reviews-keyframe-header,
+  .reviews-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 3.3rem;
+  }
+
+  .reviews-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .reviews-keyframe-text h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .reviews-keyframe-text i {
+    color: gold;
+    font-size: 1.9rem;
+  }
+
+  .reviews-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1.8rem;
+  }
+
+  .reviews-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .reviews-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 4.5rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .reviews-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .reviews-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage_23-2151748280.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 100%;
+    }
+
+    100% {
+      background-size: 115%;
+    }
+  }
+
+  .reviews-keyframe-padding-container {
+    padding: 10rem 0 10rem;
+  }
+
+  .reviews-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .reviews-keyframe-header,
+  .reviews-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 3.3rem;
+  }
+
+  .reviews-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .reviews-keyframe-text h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .reviews-keyframe-text i {
+    color: gold;
+    font-size: 1.9rem;
+  }
+
+  .reviews-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1.8rem;
+  }
+
+  .reviews-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .reviews-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 4.5rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .reviews-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+}
 
 /* ==================
 use-cases.html
@@ -506,21 +2085,26 @@ use-cases.html
     margin: 0.5rem auto 0;
     margin-right: auto;
   }
+
   .lawn-care-services-list ul li {
     font-size: 1rem;
     font-weight: 600;
     margin: 0 0 0.5rem;
   }
+
   .lawn-care-services-list ul li span {
     font-weight: 400;
   }
+
   .lawn-care-services-button {
     width: 100%;
     display: block;
   }
+
   .lawn-care-services-button a {
     text-decoration: none;
   }
+
   .lawn-care-services-btn {
     display: block;
     border: none;
@@ -534,6 +2118,7 @@ use-cases.html
     padding: 0.25em;
     transition: all 0.3s ease-in-out;
   }
+
   .lawn-care-services-btn:hover {
     opacity: 0.7;
     font-weight: 600;
@@ -541,15 +2126,830 @@ use-cases.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .use-cases-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/cases-hero.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 105%;
+    }
 
-@media only screen and (1025px <=width <=1399px) {}
 
-@media only screen and (1400px <=width) {}
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .use-cases-keyframe-padding-container {
+    padding: 3rem 0 3rem;
+  }
+
+  .use-cases-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .use-cases-keyframe-header,
+  .use-cases-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 2rem;
+  }
+
+  .use-cases-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .use-cases-keyframe-text h4 {
+    font-size: 1.5rem;
+    width: 90%;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .use-cases-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1.4rem;
+  }
+
+  .use-cases-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .use-cases-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 5rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .use-cases-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .lawn-care-services__container {
+    width: 100%;
+    margin: 2.5rem 0 0;
+  }
+
+  .lawn-care-services-header,
+  .lawn-care-services-header h4 {
+    text-align: center;
+    width: 85%;
+    font-size: 2rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+    color: var(--basegreen);
+  }
+
+  .lawn-care-services-subheader,
+  .lawn-care-services-subheader p {
+    width: 90%;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+  .lawn-care-services-list,
+  .lawn-care-services-list ul {
+    width: 90%;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .lawn-care-services-list ul li {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+
+  .lawn-care-services-list ul li span {
+    font-weight: 400;
+  }
+
+  .lawn-care-services-button {
+    width: 100%;
+    display: block;
+  }
+
+  .lawn-care-services-button a {
+    text-decoration: none;
+  }
+
+  .lawn-care-services-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .lawn-care-services-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .use-cases-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/cases-hero.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .use-cases-keyframe-padding-container {
+    padding: 2.5rem 0 2.5rem;
+  }
+
+  .use-cases-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .use-cases-keyframe-header,
+  .use-cases-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 1.9rem;
+  }
+
+  .use-cases-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .use-cases-keyframe-text h4 {
+    font-size: 1.4rem;
+    width: 90%;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .use-cases-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1.3rem;
+  }
+
+  .use-cases-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .use-cases-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 4rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .use-cases-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .lawn-care-services__container {
+    width: 100%;
+    margin: 2.5rem 0 0;
+  }
+
+  .lawn-care-services-header,
+  .lawn-care-services-header h4 {
+    text-align: center;
+    width: 85%;
+    font-size: 1.9rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+    color: var(--basegreen);
+  }
+
+  .lawn-care-services-subheader,
+  .lawn-care-services-subheader p {
+    width: 90%;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  .lawn-care-services-list,
+  .lawn-care-services-list ul {
+    width: 90%;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .lawn-care-services-list ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+
+  .lawn-care-services-list ul li span {
+    font-weight: 400;
+  }
+
+  .lawn-care-services-button {
+    width: 100%;
+    display: block;
+  }
+
+  .lawn-care-services-button a {
+    text-decoration: none;
+  }
+
+  .lawn-care-services-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.2rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .lawn-care-services-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .use-cases-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/cases-hero.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 130%;
+    }
+
+    100% {
+      background-size: 145%;
+    }
+  }
+
+  .use-cases-keyframe-padding-container {
+    padding: 10rem 0 10rem;
+  }
+
+  .use-cases-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .use-cases-keyframe-header,
+  .use-cases-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 3.3rem;
+  }
+
+  .use-cases-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .use-cases-keyframe-text h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .use-cases-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 1.8rem;
+  }
+
+  .use-cases-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .use-cases-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 2.75rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .use-cases-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .lawn-care-services__container {
+    width: 100%;
+  }
+
+  .lawn-care-services-header,
+  .lawn-care-services-header h4 {
+    text-align: center;
+    width: 95%;
+    font-size: 2.7rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+    color: var(--basegreen);
+  }
+
+  .lawn-care-services-subheader,
+  .lawn-care-services-subheader p {
+    width: 95%;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.9rem;
+  }
+
+  .lawn-care-services-list,
+  .lawn-care-services-list ul {
+    width: 90%;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .lawn-care-services-list ul li {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+
+  .lawn-care-services-list ul li span {
+    font-weight: 400;
+  }
+
+  .lawn-care-services-button {
+    width: 100%;
+    display: block;
+  }
+
+  .lawn-care-services-button a {
+    text-decoration: none;
+  }
+
+  .lawn-care-services-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .lawn-care-services-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .use-cases-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/cases-hero.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .use-cases-keyframe-padding-container {
+    padding: 10rem 0 10rem;
+  }
+
+  .use-cases-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .use-cases-keyframe-header,
+  .use-cases-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 3.2rem;
+  }
+
+  .use-cases-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .use-cases-keyframe-text h4 {
+    font-size: 2.5rem;
+    width: 90%;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .use-cases-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 2rem;
+  }
+
+  .use-cases-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .use-cases-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 5rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .use-cases-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .lawn-care-services__container {
+    width: 100%;
+    margin: 2.5rem 0 0;
+  }
+
+  .lawn-care-services-header,
+  .lawn-care-services-header h4 {
+    text-align: center;
+    width: 85%;
+    font-size: 2.7rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+    color: var(--basegreen);
+  }
+
+  .lawn-care-services-subheader,
+  .lawn-care-services-subheader p {
+    width: 90%;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.9rem;
+  }
+
+  .lawn-care-services-list,
+  .lawn-care-services-list ul {
+    width: 90%;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .lawn-care-services-list ul li {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+
+  .lawn-care-services-list ul li span {
+    font-weight: 400;
+  }
+
+  .lawn-care-services-button {
+    width: 100%;
+    display: block;
+  }
+
+  .lawn-care-services-button a {
+    text-decoration: none;
+  }
+
+  .lawn-care-services-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.8rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .lawn-care-services-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .use-cases-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/cases-hero.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: usesAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes usesAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .use-cases-keyframe-padding-container {
+    padding: 10rem 0 10rem;
+  }
+
+  .use-cases-keyframe-container-text {
+    width: 85%;
+    margin: 0 auto 0;
+    color: white;
+    margin-right: auto;
+  }
+
+  .use-cases-keyframe-header,
+  .use-cases-keyframe-header h4 {
+    text-align: left;
+    padding: 0.15em;
+    line-height: 1.15em;
+    font-size: 3.2rem;
+  }
+
+  .use-cases-keyframe-text {
+    width: 90%;
+    padding: 0 0.25rem 0;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .use-cases-keyframe-text h4 {
+    font-size: 2.5rem;
+    width: 90%;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .use-cases-keyframe-text p {
+    padding: 0.5rem 0.5rem 0;
+    font-weight: 600;
+    text-align: left;
+    width: 95%;
+    font-size: 2rem;
+  }
+
+  .use-cases-keyframe-button {
+    width: 100%;
+    display: block;
+  }
+
+  .use-cases-keyframe-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0.5rem 5rem 0;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em;
+    transition: all 0.7s ease;
+  }
+
+  .use-cases-keyframe-btn:hover {
+    box-shadow: 1px 1px 1.75px 1.5px black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+  }
+
+  .lawn-care-services__container {
+    width: 100%;
+    margin: 2.5rem 0 0;
+  }
+
+  .lawn-care-services-header,
+  .lawn-care-services-header h4 {
+    text-align: center;
+    width: 80%;
+    font-size: 2.8rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+    color: var(--basegreen);
+  }
+
+  .lawn-care-services-subheader,
+  .lawn-care-services-subheader p {
+    width: 85%;
+    margin: 0.25rem auto 0;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 2.1rem;
+  }
+
+  .lawn-care-services-list,
+  .lawn-care-services-list ul {
+    width: 85%;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .lawn-care-services-list ul li {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+
+  .lawn-care-services-list ul li span {
+    font-weight: 400;
+  }
+
+  .lawn-care-services-button {
+    width: 100%;
+    display: block;
+  }
+
+  .lawn-care-services-button a {
+    text-decoration: none;
+  }
+
+  .lawn-care-services-btn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 2rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .lawn-care-services-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+}
 
 /*================
 shared ATTR
@@ -675,15 +3075,585 @@ shared-offered-tile__container
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-offered-tile__container {
+    width: 100%;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .shared-offered-tile-header,
+  .shared-offered-tile-header h4 {
+    width: 80%;
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+    padding: 0.25em;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .shared-offered-grid {
+    display: grid;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-offered-tile-image-01,
+  .shared-offered-tile-image-02,
+  .shared-offered-tile-image-03,
+  .shared-offered-tile-image-04,
+  .shared-offered-tile-image-05,
+  .shared-offered-tile-image-06 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4.25rem 0 4.25rem;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-offered-tile-image-01:hover,
+  .shared-offered-tile-image-02:hover,
+  .shared-offered-tile-image-03:hover,
+  .shared-offered-tile-image-04:hover,
+  .shared-offered-tile-image-05:hover,
+  .shared-offered-tile-image-06:hover {
+    margin: 0.15em;
+  }
+
+  .shared-offered-tile-image-01 {
+    background-image: url(img/custom-tile.jpg);
+  }
+
+  .shared-offered-tile-image-02 {
+    background-image: url(img/hardscape-tile.jpg);
+  }
+
+  .shared-offered-tile-image-03 {
+    background-image: url(img/artifical-tile.jpg);
+  }
+
+  .shared-offered-tile-image-04 {
+    background-image: url(img/irrigation-tile.jpg);
+  }
+
+  .shared-offered-tile-image-05 {
+    background-image: url(img/outdoor-lighting.jpg);
+  }
+
+  .shared-offered-tile-image-06 {
+    background-image: url(img/landscaping-maint-tile.webp);
+  }
+
+  .shared-offered-tile-text {
+    border: none;
+    width: 60%;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 0.9;
+  }
+
+  .shared-offered-tile-text p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .shared-offered-button {
+    width: 100%;
+  }
+
+  .shared-offered-button a {
+    text-decoration: none;
+  }
+
+  .shared-offered-btn {
+    display: block;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.5rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-offered-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: black;
+    opacity: 0.8;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-offered-tile__container {
+    width: 100%;
+  }
+
+  .shared-offered-tile-header,
+  .shared-offered-tile-header h4 {
+    width: 80%;
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+    padding: 0.25em;
+  }
+
+  .shared-offered-grid {
+    display: grid;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-offered-tile-image-01,
+  .shared-offered-tile-image-02,
+  .shared-offered-tile-image-03,
+  .shared-offered-tile-image-04,
+  .shared-offered-tile-image-05,
+  .shared-offered-tile-image-06 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4em 0 ;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .shared-offered-tile-image-01:hover,
+  .shared-offered-tile-image-02:hover,
+  .shared-offered-tile-image-03:hover,
+  .shared-offered-tile-image-04:hover,
+  .shared-offered-tile-image-05:hover,
+  .shared-offered-tile-image-06:hover {
+    margin: 0.15em;
+  }
+
+  .shared-offered-tile-image-01 {
+    background-image: url(img/custom-tile.jpg);
+  }
+
+  .shared-offered-tile-image-02 {
+    background-image: url(img/hardscape-tile.jpg);
+  }
+
+  .shared-offered-tile-image-03 {
+    background-image: url(img/artifical-tile.jpg);
+  }
+
+  .shared-offered-tile-image-04 {
+    background-image: url(img/irrigation-tile.jpg);
+  }
+
+  .shared-offered-tile-image-05 {
+    background-image: url(img/outdoor-lighting.jpg);
+  }
+
+  .shared-offered-tile-image-06 {
+    background-image: url(img/landscaping-maint-tile.webp);
+  }
+
+  .shared-offered-tile-text {
+    border: none;
+    width: 60%;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 0.9;
+  }
+
+  .shared-offered-tile-text p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .shared-offered-button {
+    width: 100%;
+  }
+
+  .shared-offered-button a {
+    text-decoration: none;
+  }
+
+  .shared-offered-btn {
+    display: block;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.2rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-offered-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: black;
+    opacity: 0.8;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-offered-tile__container {
+    width: 100%;
+  }
+
+  .shared-offered-tile-header,
+  .shared-offered-tile-header h4 {
+    width: 85%;
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+    padding: 0.25em;
+  }
+
+  .shared-offered-grid {
+    display: grid;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-offered-tile-image-01,
+  .shared-offered-tile-image-02,
+  .shared-offered-tile-image-03,
+  .shared-offered-tile-image-04,
+  .shared-offered-tile-image-05,
+  .shared-offered-tile-image-06 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem 0 8rem;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .shared-offered-tile-image-01:hover,
+  .shared-offered-tile-image-02:hover,
+  .shared-offered-tile-image-03:hover,
+  .shared-offered-tile-image-04:hover,
+  .shared-offered-tile-image-05:hover,
+  .shared-offered-tile-image-06:hover {
+    margin: 0.25em;
+  }
+
+  .shared-offered-tile-image-01 {
+    background-image: url(img/custom-tile.jpg);
+  }
+
+  .shared-offered-tile-image-02 {
+    background-image: url(img/hardscape-tile.jpg);
+  }
+
+  .shared-offered-tile-image-03 {
+    background-image: url(img/artifical-tile.jpg);
+  }
+
+  .shared-offered-tile-image-04 {
+    background-image: url(img/irrigation-tile.jpg);
+  }
+
+  .shared-offered-tile-image-05 {
+    background-image: url(img/outdoor-lighting.jpg);
+  }
+
+  .shared-offered-tile-image-06 {
+    background-image: url(img/landscaping-maint-tile.webp);
+  }
+
+  .shared-offered-tile-text {
+    border: none;
+    width: 70%;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 0.9;
+  }
+
+  .shared-offered-tile-text p {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .shared-offered-button {
+    width: 100%;
+  }
+
+  .shared-offered-button a {
+    text-decoration: none;
+  }
+
+  .shared-offered-btn {
+    display: block;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.9rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-offered-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: black;
+    opacity: 0.8;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-offered-tile__container {
+    width: 100%;
+  }
+
+  .shared-offered-tile-header,
+  .shared-offered-tile-header h4 {
+    width: 80%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+    padding: 0.25em;
+  }
+
+  .shared-offered-grid {
+    display: grid;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-offered-tile-image-01,
+  .shared-offered-tile-image-02,
+  .shared-offered-tile-image-03,
+  .shared-offered-tile-image-04,
+  .shared-offered-tile-image-05,
+  .shared-offered-tile-image-06 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem 0 8rem;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .shared-offered-tile-image-01:hover,
+  .shared-offered-tile-image-02:hover,
+  .shared-offered-tile-image-03:hover,
+  .shared-offered-tile-image-04:hover,
+  .shared-offered-tile-image-05:hover,
+  .shared-offered-tile-image-06:hover {
+    margin: 0.25em;
+  }
+
+  .shared-offered-tile-image-01 {
+    background-image: url(img/custom-tile.jpg);
+  }
+
+  .shared-offered-tile-image-02 {
+    background-image: url(img/hardscape-tile.jpg);
+  }
+
+  .shared-offered-tile-image-03 {
+    background-image: url(img/artifical-tile.jpg);
+  }
+
+  .shared-offered-tile-image-04 {
+    background-image: url(img/irrigation-tile.jpg);
+  }
+
+  .shared-offered-tile-image-05 {
+    background-image: url(img/outdoor-lighting.jpg);
+  }
+
+  .shared-offered-tile-image-06 {
+    background-image: url(img/landscaping-maint-tile.webp);
+  }
+
+  .shared-offered-tile-text {
+    border: none;
+    width: 60%;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 0.9;
+  }
+
+  .shared-offered-tile-text p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .shared-offered-button {
+    width: 100%;
+  }
+
+  .shared-offered-button a {
+    text-decoration: none;
+  }
+
+  .shared-offered-btn {
+    display: block;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.9rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-offered-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: black;
+    opacity: 0.8;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-offered-tile__container {
+    width: 100%;
+  }
+
+  .shared-offered-tile-header,
+  .shared-offered-tile-header h4 {
+    width: 80%;
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+    padding: 0.25em;
+  }
+
+  .shared-offered-grid {
+    display: grid;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-offered-tile-image-01,
+  .shared-offered-tile-image-02,
+  .shared-offered-tile-image-03,
+  .shared-offered-tile-image-04,
+  .shared-offered-tile-image-05,
+  .shared-offered-tile-image-06 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem 0 8rem;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .shared-offered-tile-image-01:hover,
+  .shared-offered-tile-image-02:hover,
+  .shared-offered-tile-image-03:hover,
+  .shared-offered-tile-image-04:hover,
+  .shared-offered-tile-image-05:hover,
+  .shared-offered-tile-image-06:hover {
+    margin: 0.25em;
+  }
+
+  .shared-offered-tile-image-01 {
+    background-image: url(img/custom-tile.jpg);
+  }
+
+  .shared-offered-tile-image-02 {
+    background-image: url(img/hardscape-tile.jpg);
+  }
+
+  .shared-offered-tile-image-03 {
+    background-image: url(img/artifical-tile.jpg);
+  }
+
+  .shared-offered-tile-image-04 {
+    background-image: url(img/irrigation-tile.jpg);
+  }
+
+  .shared-offered-tile-image-05 {
+    background-image: url(img/outdoor-lighting.jpg);
+  }
+
+  .shared-offered-tile-image-06 {
+    background-image: url(img/landscaping-maint-tile.webp);
+  }
+
+  .shared-offered-tile-text {
+    border: none;
+    width: 60%;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 0.9;
+  }
+
+  .shared-offered-tile-text p {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .shared-offered-button {
+    width: 100%;
+  }
+
+  .shared-offered-button a {
+    text-decoration: none;
+  }
+
+  .shared-offered-btn {
+    display: block;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 2.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-offered-btn:hover {
+    box-shadow: 1px 1px 1.5px 1px black;
+    color: black;
+    opacity: 0.8;
+    font-weight: 600;
+  }
+}
 
 /*====================== 
   irrigation.html
@@ -729,7 +3699,6 @@ shared-offered-tile__container
   }
 
   .shared-services-column-02-image {
-    outline: auto;
     width: 100%;
   }
 
@@ -933,15 +3902,1221 @@ shared-offered-tile__container
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-services-top-header,
+  .shared-services-top-header h4 {
+    font-size: 2.1rem;
+    text-align: center;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .shared-services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .shared-services-column-01 {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-services-column-01-header,
+  .shared-services-column-01-header h4 {
+    color: var(--basegreen);
+    font-size: 1.7rem;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: right;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-services-column-01-hero-text,
+  .shared-services-column-01-hero-text p {
+    width: 90%;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-image {
+    width: 100%;
+  }
+
+  .shared-services-column-01-list {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 600;
+  }
+
+  .shared-services-column-01-list span {
+    font-weight: 400;
+  }
+
+  .shared-services-column-01-list ul li {
+    padding: 0 0 0.5rem;
+    font-size: 1.3rem;
+  }
+
+  .shared-services-column-01-button {
+    width: 100%;
+  }
+
+  .shared-services-column-01-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-01-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-01-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-services-column-02-image {
+    background-image: url(img/pre-emergent-weed-control-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem 0 1rem;
+    animation: sharedAnimation 10s infinite alternate;
+  }
+
+  @keyframes sharedAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .shared-services-column-02-padding__container {
+    padding: 5rem 0 5rem;
+  }
+
+  .shared-services-column-02-container {
+    width: 60%;
+    background-color: white;
+    opacity: 0.9;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 0;
+    padding: 0 0 1rem;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-header,
+  .shared-services-column-02-header h4 {
+    text-align: center;
+    width: 95%;
+    padding: 0.15em;
+    font-size: 1.7rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-body,
+  .shared-services-column-02-body p {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .shared-services-column-02-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-02-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-02-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-uses-container {
+    width: 100%;
+  }
+
+  .shared-uses-grid {
+    display: grid;
+    margin: 0.25rem 0 0.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-uses-header,
+  .shared-uses-header h4 {
+    width: 80%;
+    margin: 0 auto 0.25rem;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.9rem;
+  }
+
+  .shared-image-tile-01,
+  .shared-image-tile-02,
+  .shared-image-tile-03,
+  .shared-image-tile-04,
+  .shared-image-tile-05,
+  .shared-image-tile-06 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+    transition: all 0.2s ease;
+  }
+
+  .shared-image-tile-01:hover,
+  .shared-image-tile-02:hover,
+  .shared-image-tile-03:hover,
+  .shared-image-tile-04:hover,
+  .shared-image-tile-05:hover,
+  .shared-image-tile-06:hover {
+    margin: 0.25em;
+  }
+
+  .shared-image-tile-01 {
+    background-image: url(img/view-water-tank-storage.jpg);
+  }
+
+  .shared-image-tile-02 {
+    background-image: url(img/hoa-tile.webp);
+  }
+
+  .shared-image-tile-03 {
+    background-image: url(img/multiple-tile.jpg);
+  }
+
+  .shared-image-tile-04 {
+    background-image: url(img/vacation-tile.avif);
+  }
+
+  .shared-image-tile-05 {
+    background-image: url(img/foreclosed-tile.webp);
+  }
+
+  .shared-image-tile-06 {
+    background-image: url(img/buying-foreclosed-home-with-fha-loan.jpg);
+  }
+
+  .shared-image-tile-text {
+    width: 75%;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+
+  }
+
+  .shared-image-tile-text h4 {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-services-top-header,
+  .shared-services-top-header h4 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .shared-services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .shared-services-column-01 {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-01-header,
+  .shared-services-column-01-header h4 {
+    color: var(--basegreen);
+    font-size: 1.5rem;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: right;
+  }
+
+  .shared-services-column-01-hero-text,
+  .shared-services-column-01-hero-text p {
+    width: 90%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-image {
+    width: 100%;
+  }
+
+  .shared-services-column-01-list {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 600;
+  }
+
+  .shared-services-column-01-list span {
+    font-weight: 400;
+  }
+
+  .shared-services-column-01-list ul li {
+    padding: 0 0 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .shared-services-column-01-button {
+    width: 100%;
+  }
+
+  .shared-services-column-01-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-01-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.2rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-01-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-services-column-02-image {
+    background-image: url(img/pre-emergent-weed-control-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem 0 1rem;
+    animation: sharedAnimation 10s infinite alternate;
+  }
+
+  @keyframes sharedAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .shared-services-column-02-padding__container {
+    padding: 5rem 0 5rem;
+  }
+
+  .shared-services-column-02-container {
+    width: 55%;
+    background-color: white;
+    opacity: 0.9;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 0;
+    padding: 0 0 1rem;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-header,
+  .shared-services-column-02-header h4 {
+    text-align: center;
+    width: 95%;
+    padding: 0.15em;
+    font-size: 1.5rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-body,
+  .shared-services-column-02-body p {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .shared-services-column-02-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-02-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.2rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-02-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-uses-container {
+    width: 100%;
+  }
+
+  .shared-uses-grid {
+    display: grid;
+    margin: 0.25rem 0 0.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-uses-header,
+  .shared-uses-header h4 {
+    width: 80%;
+    margin: 0 auto 0.25rem;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .shared-image-tile-01,
+  .shared-image-tile-02,
+  .shared-image-tile-03,
+  .shared-image-tile-04,
+  .shared-image-tile-05,
+  .shared-image-tile-06 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.5em 0;
+    transition: all 0.2s ease;
+  }
+
+  .shared-image-tile-01:hover,
+  .shared-image-tile-02:hover,
+  .shared-image-tile-03:hover,
+  .shared-image-tile-04:hover,
+  .shared-image-tile-05:hover,
+  .shared-image-tile-06:hover {
+    margin: 0.15em;
+  }
+
+  .shared-image-tile-01 {
+    background-image: url(img/view-water-tank-storage.jpg);
+  }
+
+  .shared-image-tile-02 {
+    background-image: url(img/hoa-tile.webp);
+  }
+
+  .shared-image-tile-03 {
+    background-image: url(img/multiple-tile.jpg);
+  }
+
+  .shared-image-tile-04 {
+    background-image: url(img/vacation-tile.avif);
+  }
+
+  .shared-image-tile-05 {
+    background-image: url(img/foreclosed-tile.webp);
+  }
+
+  .shared-image-tile-06 {
+    background-image: url(img/buying-foreclosed-home-with-fha-loan.jpg);
+  }
+
+  .shared-image-tile-text {
+    width: 75%;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+
+  }
+
+  .shared-image-tile-text h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+
+  .shared-services-top-header,
+  .shared-services-top-header h4 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .shared-services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .shared-services-column-01 {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-01-header,
+  .shared-services-column-01-header h4 {
+    color: var(--basegreen);
+    font-size: 2.5rem;
+    width: 100%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: right;
+  }
+
+  .shared-services-column-01-hero-text,
+  .shared-services-column-01-hero-text p {
+    width: 95%;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-image {
+    width: 100%;
+  }
+
+  .shared-services-column-01-list {
+    width: 85%;
+    text-align: left;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 600;
+  }
+
+  .shared-services-column-01-list span {
+    font-weight: 400;
+  }
+
+  .shared-services-column-01-list ul li {
+    padding: 0 0 0.5rem;
+    font-size: 1.8rem;
+  }
+
+  .shared-services-column-01-button {
+    width: 100%;
+  }
+
+  .shared-services-column-01-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-01-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-01-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-services-column-02-image {
+    background-image: url(img/pre-emergent-weed-control-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem 0 1rem;
+    animation: sharedAnimation 10s infinite alternate;
+  }
+
+  @keyframes sharedAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .shared-services-column-02-padding__container {
+    padding: 7.5rem 0 7.5rem;
+  }
+
+  .shared-services-column-02-container {
+    width: 70%;
+    background-color: white;
+    opacity: 0.9;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 0;
+    padding: 0 0 1rem;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-header,
+  .shared-services-column-02-header h4 {
+    text-align: center;
+    width: 95%;
+    padding: 0.15em;
+    font-size: 2.4rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-body,
+  .shared-services-column-02-body p {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .shared-services-column-02-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-02-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.8rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-02-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-uses-container {
+    width: 100%;
+  }
+
+  .shared-uses-grid {
+    display: grid;
+    margin: 0.25rem 0 0.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-uses-header,
+  .shared-uses-header h4 {
+    width: 95%;
+    margin: 0 auto 0.25rem;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.4rem;
+  }
+
+  .shared-image-tile-01,
+  .shared-image-tile-02,
+  .shared-image-tile-03,
+  .shared-image-tile-04,
+  .shared-image-tile-05,
+  .shared-image-tile-06 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9em 0;
+    transition: all 0.2s ease;
+  }
+
+  .shared-image-tile-01:hover,
+  .shared-image-tile-02:hover,
+  .shared-image-tile-03:hover,
+  .shared-image-tile-04:hover,
+  .shared-image-tile-05:hover,
+  .shared-image-tile-06:hover {
+    margin: 0.25em;
+  }
+
+  .shared-image-tile-01 {
+    background-image: url(img/view-water-tank-storage.jpg);
+  }
+
+  .shared-image-tile-02 {
+    background-image: url(img/hoa-tile.webp);
+  }
+
+  .shared-image-tile-03 {
+    background-image: url(img/multiple-tile.jpg);
+  }
+
+  .shared-image-tile-04 {
+    background-image: url(img/vacation-tile.avif);
+  }
+
+  .shared-image-tile-05 {
+    background-image: url(img/foreclosed-tile.webp);
+  }
+
+  .shared-image-tile-06 {
+    background-image: url(img/buying-foreclosed-home-with-fha-loan.jpg);
+  }
+
+  .shared-image-tile-text {
+    width: 90%;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+
+  }
+
+  .shared-image-tile-text h4 {
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-services-top-header,
+  .shared-services-top-header h4 {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .shared-services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .shared-services-column-01 {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-01-header,
+  .shared-services-column-01-header h4 {
+    color: var(--basegreen);
+    font-size: 2.4rem;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: right;
+  }
+
+  .shared-services-column-01-hero-text,
+  .shared-services-column-01-hero-text p {
+    width: 90%;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-image {
+    width: 100%;
+  }
+
+  .shared-services-column-01-list {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 600;
+  }
+
+  .shared-services-column-01-list span {
+    font-weight: 400;
+  }
+
+  .shared-services-column-01-list ul li {
+    padding: 0 0 0.5rem;
+    font-size: 1.7rem;
+  }
+
+  .shared-services-column-01-button {
+    width: 100%;
+  }
+
+  .shared-services-column-01-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-01-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.6rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-01-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-services-column-02-image {
+    background-image: url(img/pre-emergent-weed-control-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem 0 1rem;
+    animation: sharedAnimation 10s infinite alternate;
+  }
+
+  @keyframes sharedAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .shared-services-column-02-padding__container {
+    padding: 7.5rem 0 7.5rem;
+  }
+
+  .shared-services-column-02-container {
+    width: 65%;
+    background-color: white;
+    opacity: 0.9;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 0;
+    padding: 0 0 1rem;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-header,
+  .shared-services-column-02-header h4 {
+    text-align: center;
+    width: 95%;
+    padding: 0.15em;
+    font-size: 2.3rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-body,
+  .shared-services-column-02-body p {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-size: 1.9rem;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .shared-services-column-02-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-02-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-02-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-uses-container {
+    width: 100%;
+  }
+
+  .shared-uses-grid {
+    display: grid;
+    margin: 0.25rem 0 0.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-uses-header,
+  .shared-uses-header h4 {
+    width: 80%;
+    margin: 0 auto 0.25rem;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .shared-image-tile-01,
+  .shared-image-tile-02,
+  .shared-image-tile-03,
+  .shared-image-tile-04,
+  .shared-image-tile-05,
+  .shared-image-tile-06 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9em 0;
+    transition: all 0.2s ease;
+  }
+
+  .shared-image-tile-01:hover,
+  .shared-image-tile-02:hover,
+  .shared-image-tile-03:hover,
+  .shared-image-tile-04:hover,
+  .shared-image-tile-05:hover,
+  .shared-image-tile-06:hover {
+    margin: 0.25em;
+  }
+
+  .shared-image-tile-01 {
+    background-image: url(img/view-water-tank-storage.jpg);
+  }
+
+  .shared-image-tile-02 {
+    background-image: url(img/hoa-tile.webp);
+  }
+
+  .shared-image-tile-03 {
+    background-image: url(img/multiple-tile.jpg);
+  }
+
+  .shared-image-tile-04 {
+    background-image: url(img/vacation-tile.avif);
+  }
+
+  .shared-image-tile-05 {
+    background-image: url(img/foreclosed-tile.webp);
+  }
+
+  .shared-image-tile-06 {
+    background-image: url(img/buying-foreclosed-home-with-fha-loan.jpg);
+  }
+
+  .shared-image-tile-text {
+    width: 75%;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+
+  }
+
+  .shared-image-tile-text h4 {
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-services-top-header,
+  .shared-services-top-header h4 {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .shared-services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .shared-services-column-01 {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-01-header,
+  .shared-services-column-01-header h4 {
+    color: var(--basegreen);
+    font-size: 2.4rem;
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    text-align: right;
+  }
+
+  .shared-services-column-01-hero-text,
+  .shared-services-column-01-hero-text p {
+    width: 90%;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-image {
+    width: 100%;
+  }
+
+  .shared-services-column-01-list {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-weight: 600;
+  }
+
+  .shared-services-column-01-list span {
+    font-weight: 400;
+  }
+
+  .shared-services-column-01-list ul li {
+    padding: 0 0 0.5rem;
+    font-size: 1.8rem;
+  }
+
+  .shared-services-column-01-button {
+    width: 100%;
+  }
+
+  .shared-services-column-01-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-01-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.9rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-01-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-services-column-02-image {
+    background-image: url(img/pre-emergent-weed-control-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem 0 1rem;
+    animation: sharedAnimation 10s infinite alternate;
+  }
+
+  @keyframes sharedAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .shared-services-column-02-padding__container {
+    padding: 7.5rem 0 7.5rem;
+  }
+
+  .shared-services-column-02-container {
+    width: 55%;
+    background-color: white;
+    opacity: 0.9;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 0;
+    padding: 0 0 1rem;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-header,
+  .shared-services-column-02-header h4 {
+    text-align: center;
+    width: 95%;
+    padding: 0.15em;
+    font-size: 2.3rem;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-services-column-02-body,
+  .shared-services-column-02-body p {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    font-size: 1.9rem;
+    font-weight: 450;
+    text-align: center;
+  }
+
+  .shared-services-column-02-button a {
+    text-decoration: none;
+  }
+
+  .shared-services-column-02-btn {
+    border: none;
+    display: block;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem auto 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.9rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-services-column-02-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.5px black;
+  }
+
+  .shared-uses-container {
+    width: 100%;
+  }
+
+  .shared-uses-grid {
+    display: grid;
+    margin: 0.25rem 0 0.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-uses-header,
+  .shared-uses-header h4 {
+    width: 80%;
+    margin: 0 auto 0.25rem;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .shared-image-tile-01,
+  .shared-image-tile-02,
+  .shared-image-tile-03,
+  .shared-image-tile-04,
+  .shared-image-tile-05,
+  .shared-image-tile-06 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9em 0;
+    transition: all 0.2s ease;
+  }
+
+  .shared-image-tile-01:hover,
+  .shared-image-tile-02:hover,
+  .shared-image-tile-03:hover,
+  .shared-image-tile-04:hover,
+  .shared-image-tile-05:hover,
+  .shared-image-tile-06:hover {
+    margin: 0.25em;
+  }
+
+  .shared-image-tile-01 {
+    background-image: url(img/view-water-tank-storage.jpg);
+  }
+
+  .shared-image-tile-02 {
+    background-image: url(img/hoa-tile.webp);
+  }
+
+  .shared-image-tile-03 {
+    background-image: url(img/multiple-tile.jpg);
+  }
+
+  .shared-image-tile-04 {
+    background-image: url(img/vacation-tile.avif);
+  }
+
+  .shared-image-tile-05 {
+    background-image: url(img/foreclosed-tile.webp);
+  }
+
+  .shared-image-tile-06 {
+    background-image: url(img/buying-foreclosed-home-with-fha-loan.jpg);
+  }
+
+  .shared-image-tile-text {
+    width: 75%;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+
+  }
+
+  .shared-image-tile-text h4 {
+    font-size: 1.9rem;
+  }
+}
 
 /* ===========================
 shared-top-contact-container
@@ -988,15 +5163,215 @@ shared-top-contact-container
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-top-contact-container {
+    border: none;
+    padding: 0.35em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 45%;
+    margin: 1.5rem auto 1rem;
+    margin-right: auto;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .shared-top-contact-header,
+  .shared-top-contact-header h4 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .shared-top-body-button {
+    width: 100%;
+    display: block;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-top-contact-btn {
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem 1.55rem 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-top-contact-btn:hover {
+    opacity: 0.7;
+    font-weight: 500;
+    box-shadow: 1.25px 1.25px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-top-contact-container {
+    border: none;
+    padding: 0.35em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 45%;
+    margin: 1.5rem auto 1rem;
+    margin-right: auto;
+  }
+
+  .shared-top-contact-header,
+  .shared-top-contact-header h4 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .shared-top-body-button {
+    width: 100%;
+    display: block;
+  }
+
+  .shared-top-contact-btn {
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 0.75rem 1.45rem 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-top-contact-btn:hover {
+    opacity: 0.7;
+    font-weight: 500;
+    box-shadow: 1.25px 1.25px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-top-contact-container {
+    border: none;
+    padding: 0.35em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 55%;
+    margin: 1.5rem auto 1rem;
+    margin-right: auto;
+  }
+
+  .shared-top-contact-header,
+  .shared-top-contact-header h4 {
+    text-align: center;
+    font-size: 2.1rem;
+  }
+
+  .shared-top-body-button {
+    width: 100%;
+    display: block;
+  }
+
+  .shared-top-contact-btn {
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 1.5rem 2.35rem 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.5rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-top-contact-btn:hover {
+    opacity: 0.7;
+    font-weight: 500;
+    box-shadow: 1.25px 1.25px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-top-contact-container {
+    border: none;
+    padding: 0.35em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 50%;
+    margin: 1.5rem auto 1rem;
+    margin-right: auto;
+  }
+
+  .shared-top-contact-header,
+  .shared-top-contact-header h4 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .shared-top-body-button {
+    width: 100%;
+    display: block;
+  }
+
+  .shared-top-contact-btn {
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 1.5rem 5.25rem 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.5rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-top-contact-btn:hover {
+    opacity: 0.7;
+    font-weight: 500;
+    box-shadow: 1.25px 1.25px 1.5px 1.5px black;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-top-contact-container {
+    border: none;
+    padding: 0.35em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1.5px 1px black;
+    width: 45%;
+    margin: 1.5rem auto 1rem;
+    margin-right: auto;
+  }
+
+  .shared-top-contact-header,
+  .shared-top-contact-header h4 {
+    text-align: center;
+    font-size: 2.1rem;
+  }
+
+  .shared-top-body-button {
+    width: 100%;
+    display: block;
+  }
+
+  .shared-top-contact-btn {
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 1.5rem 4.5rem 1rem;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-top-contact-btn:hover {
+    opacity: 0.7;
+    font-weight: 500;
+    box-shadow: 1.25px 1.25px 1.5px 1.5px black;
+  }
+}
 
 /* ==================
 keyframe animation
@@ -1026,15 +5401,150 @@ keyframe animation
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .index-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: zoomAnimation 10s infinite alternate;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  /* Keyframe animation */
+  @keyframes zoomAnimation {
+    0% {
+      background-size: 105%;
+    }
 
-@media only screen and (1025px <=width <=1399px) {}
+    100% {
+      background-size: 120%;
+    }
+  }
 
-@media only screen and (1400px <=width) {}
+  .index-keyframe-padding-container {
+    padding: 4rem 0 4rem;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .index-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: zoomAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes zoomAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .index-keyframe-padding-container {
+    padding: 3rem 0 3rem;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .index-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: zoomAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes zoomAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .index-keyframe-padding-container {
+    padding: 10rem 0 10rem;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .index-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: zoomAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes zoomAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .index-keyframe-padding-container {
+    padding: 11rem 0 11rem;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .index-keyframe-container {
+    position: relative;
+    width: 100%;
+    background-image: url('img/view-tank-container-water-storage.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: zoomAnimation 10s infinite alternate;
+  }
+
+
+  /* Keyframe animation */
+  @keyframes zoomAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  .index-keyframe-padding-container {
+    padding: 9rem 0 9rem;
+  }
+}
 
 
 /* ===================
@@ -1122,15 +5632,414 @@ shared-three-container
 
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-three-container {
+    width: 100%;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .shared-three-header {
+    box-shadow: 1px 1px 1.5px 1.25px black;
+    width: 60%;
+    background-color: whitesmoke;
+    margin: 2rem auto 0;
+    border: none;
+    border-radius: 3px;
+    margin-right: auto;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .shared-three-header h4 {
+    font-size: 1.9rem;
+    text-align: center;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-three-header p {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 90%;
+    font-weight: 450;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-three-grid {
+    display: grid;
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-three-tile-container {
+    width: 95%;
+    margin: 2rem auto 0;
+    margin-right: auto;
+
+  }
+
+  .keyframe-img img {
+    width: 100%;
+    height: 16rem;
+  }
+
+  .shared-three-title {
+    margin: 0 0.25rem 0;
+    color: var(--basegreen);
+  }
+
+  .shared-three-title h4 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .shared-three-tile-header {
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .shared-three-tile-header h4 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .shared-three-text {
+    width: 90%;
+    margin: 0 1rem 0.75rem;
+  }
+
+  .shared-three-text p {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 450;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-three-container {
+    width: 100%;
+  }
+
+  .shared-three-header {
+    box-shadow: 1px 1px 1.5px 1.25px black;
+    width: 55%;
+    background-color: whitesmoke;
+    margin: 2rem auto 0;
+    border: none;
+    border-radius: 3px;
+    margin-right: auto;
+  }
+
+  .shared-three-header h4 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .shared-three-header p {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 90%;
+    font-weight: 450;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-three-grid {
+    display: grid;
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-three-tile-container {
+    width: 95%;
+    margin: 2rem auto 0;
+    margin-right: auto;
+
+  }
+
+  .keyframe-img img {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .shared-three-title {
+    margin: 0 0.25rem 0;
+    color: var(--basegreen);
+  }
+
+  .shared-three-title h4 {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .shared-three-tile-header {
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .shared-three-tile-header h4 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .shared-three-text {
+    width: 90%;
+    margin: 0 1rem 0.75rem;
+  }
+
+  .shared-three-text p {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 450;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-three-container {
+    width: 100%;
+  }
+
+  .shared-three-header {
+    box-shadow: 1px 1px 1.5px 1.25px black;
+    width: 75%;
+    background-color: whitesmoke;
+    margin: 2rem auto 0;
+    border: none;
+    border-radius: 3px;
+    margin-right: auto;
+  }
+
+  .shared-three-header h4 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .shared-three-header p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 90%;
+    font-weight: 450;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-three-grid {
+    display: grid;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .shared-three-tile-container {
+    width: 60%;
+    margin: 2rem auto 0;
+    margin-right: auto;
+
+  }
+
+  .keyframe-img img {
+    width: 100%;
+    height: 22rem;
+  }
+
+  .shared-three-title {
+    margin: 0 0.25rem 0;
+    color: var(--basegreen);
+  }
+
+  .shared-three-title h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .shared-three-tile-header {
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .shared-three-tile-header h4 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .shared-three-text {
+    width: 90%;
+    margin: 0 1rem 0.75rem;
+  }
+
+  .shared-three-text p {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 450;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-three-container {
+    width: 100%;
+  }
+
+  .shared-three-header {
+    box-shadow: 1px 1px 1.5px 1.25px black;
+    width: 65%;
+    background-color: whitesmoke;
+    margin: 2rem auto 0;
+    border: none;
+    border-radius: 3px;
+    margin-right: auto;
+  }
+
+  .shared-three-header h4 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .shared-three-header p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 90%;
+    font-weight: 450;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-three-grid {
+    display: grid;
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-three-tile-container {
+    width: 95%;
+    margin: 2rem auto 0;
+    margin-right: auto;
+
+  }
+
+  .keyframe-img img {
+    width: 100%;
+    height: 30rem;
+  }
+
+  .shared-three-title {
+    margin: 0 0.25rem 0;
+    color: var(--basegreen);
+  }
+
+  .shared-three-title h4 {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .shared-three-tile-header {
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .shared-three-tile-header h4 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .shared-three-text {
+    width: 90%;
+    margin: 0 1rem 0.75rem;
+  }
+
+  .shared-three-text p {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 450;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-three-container {
+    width: 100%;
+  }
+
+  .shared-three-header {
+    box-shadow: 1px 1px 1.5px 1.25px black;
+    width: 65%;
+    background-color: whitesmoke;
+    margin: 2rem auto 0;
+    border: none;
+    border-radius: 3px;
+    margin-right: auto;
+  }
+
+  .shared-three-header h4 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .shared-three-header p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 90%;
+    font-weight: 450;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-three-grid {
+    display: grid;
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-three-tile-container {
+    width: 95%;
+    margin: 2rem auto 0;
+    margin-right: auto;
+
+  }
+
+  .keyframe-img img {
+    width: 100%;
+    height: 28rem;
+  }
+
+  .shared-three-title {
+    margin: 0 0.25rem 0;
+    color: var(--basegreen);
+  }
+
+  .shared-three-title h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .shared-three-tile-header {
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .shared-three-tile-header h4 {
+    font-size: 2.1rem;
+    text-align: center;
+  }
+
+  .shared-three-text {
+    width: 90%;
+    margin: 0 1rem 0.75rem;
+  }
+
+  .shared-three-text p {
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 450;
+  }
+}
 
 /* =======================
 shared-reasons-why__container
@@ -1194,15 +6103,300 @@ shared-reasons-why__container
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-reasons-why__container {
+    width: 100%;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .shared-reasons-why-header,
+  .shared-reasons-why-header h4 {
+    width: 90%;
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .shared-reasons-why-grid-01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-reasons-why-grid-02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-reasons-why-tile {
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-img img {
+    width: 3.25rem;
+    display: block;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header {
+    width: 65%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header h4 {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .shared-reasons-why-tile-body {
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-body p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-reasons-why__container {
+    width: 100%;
+  }
+
+  .shared-reasons-why-header,
+  .shared-reasons-why-header h4 {
+    width: 90%;
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-grid-01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-reasons-why-grid-02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reasons-why-tile {
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-img img {
+    width: 3.25rem;
+    display: block;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header {
+    width: 65%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header h4 {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .shared-reasons-why-tile-body {
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-body p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-reasons-why__container {
+    width: 100%;
+  }
+
+  .shared-reasons-why-header,
+  .shared-reasons-why-header h4 {
+    width: 90%;
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-grid-01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-reasons-why-grid-02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reasons-why-tile {
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-img img {
+    width: 5rem;
+    display: block;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header {
+    width: 85%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header h4 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .shared-reasons-why-tile-body {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-body p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-reasons-why__container {
+    width: 100%;
+  }
+
+  .shared-reasons-why-header,
+  .shared-reasons-why-header h4 {
+    width: 90%;
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-grid-01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-reasons-why-grid-02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reasons-why-tile {
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-img img {
+    width: 5.5rem;
+    display: block;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header {
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header h4 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .shared-reasons-why-tile-body {
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-body p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-reasons-why__container {
+    width: 100%;
+  }
+
+  .shared-reasons-why-header,
+  .shared-reasons-why-header h4 {
+    width: 90%;
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 1rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-grid-01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shared-reasons-why-grid-02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reasons-why-tile {
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-img img {
+    width: 5.5rem;
+    display: block;
+    margin: 0.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header {
+    width: 65%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-header h4 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+
+  .shared-reasons-why-tile-body {
+    width: 65%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-reasons-why-tile-body p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
 
 /* =====================
 shared-contact-form
@@ -1260,15 +6454,275 @@ shared-contact-form
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-form-container {
+    background: white;
+    padding: 0.5rem;
+    margin: 1.5rem auto 1.5rem;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 65%;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  label {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0.25rem 0 0.25rem;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  input,
+  select,
+  textarea {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.65rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-form-btn {
+    padding: 0.35em;
+    border: none;
+    width: 95%;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: var(--basegreen);
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-form-btn:hover {
+    background-color: var(--basegreen);
+    opacity: 0.7;
+  }
+
+  #formResponse {
+    outline: auto;
+    margin-top: 1.75rem;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-form-container {
+    background: white;
+    padding: 0.5rem;
+    margin: 1.5rem auto 1.5rem;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 65%;
+  }
+
+  label {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0.25rem 0 0.25rem;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.65rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .shared-form-btn {
+    padding: 0.35em;
+    border: none;
+    width: 95%;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: var(--basegreen);
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .shared-form-btn:hover {
+    background-color: var(--basegreen);
+    opacity: 0.7;
+  }
+
+  #formResponse {
+    outline: auto;
+    margin-top: 1.75rem;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-form-container {
+    background: white;
+    padding: 0.5rem;
+    margin: 0 auto 1.5rem;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+  }
+
+  label {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0.25rem 0 0.25rem;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0.65rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .shared-form-btn {
+    padding: 0.35em;
+    border: none;
+    width: 95%;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: var(--basegreen);
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .shared-form-btn:hover {
+    background-color: var(--basegreen);
+    opacity: 0.7;
+  }
+
+  #formResponse {
+    outline: auto;
+    margin-top: 1.75rem;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-form-container {
+    background: white;
+    padding: 0.5rem;
+    margin: 1.5rem auto 1.5rem;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 55%;
+  }
+
+  label {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0.25rem 0 0.25rem;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0.65rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .shared-form-btn {
+    padding: 0.35em;
+    border: none;
+    width: 95%;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: var(--basegreen);
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .shared-form-btn:hover {
+    background-color: var(--basegreen);
+    opacity: 0.7;
+  }
+
+  #formResponse {
+    outline: auto;
+    margin-top: 1.75rem;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-form-container {
+    background: white;
+    padding: 0.5rem;
+    margin: 1.5rem auto 1.5rem;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 55%;
+  }
+
+  label {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0.25rem 0 0.25rem;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0.65rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .shared-form-btn {
+    padding: 0.35em;
+    border: none;
+    width: 95%;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: var(--basegreen);
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .shared-form-btn:hover {
+    background-color: var(--basegreen);
+    opacity: 0.7;
+  }
+
+  #formResponse {
+    outline: auto;
+    margin-top: 1.75rem;
+  }
+}
 
 
 /* ======================
@@ -1342,15 +6796,353 @@ shared-contact-form
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-reviews-container {
+    width: 100%;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .shared-reviews-header,
+  .shared-reviews-header h4 {
+    width: 95%;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+    font-size: 1.9rem;
+    text-align: center;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .shared-reviews-grid {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-reviews-tile {
+    width: 80%;
+    position: relative;
+    margin: 0 auto 1.5rem;
+    margin-right: auto;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-reviews-top-sec {
+    display: block;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1.5px 1px black;
+
+  }
+
+  .reviews-top-sec-left {
+    color: gold;
+    margin: 0.25rem 0.25rem 0;
+    font-size: 1.2rem;
+  }
+
+  .reviews-top-sec-right img {
+    width: 2rem;
+    margin: 0.25rem 0.25rem 0;
+  }
+
+  .shared-reviews-text,
+  .shared-reviews-text p {
+    width: 95%;
+    font-weight: 450;
+    font-size: 1.3rem;
+    margin: 0.25rem 0.25rem 0;
+    margin-right: auto;
+  }
+
+  .bot-reviews-sec-img img {
+    width: 3rem;
+    margin: 0.25rem 0.5rem 0;
+  }
+
+  .bot-reviews-sec-name,
+  .bot-reviews-sec-name h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0.25rem 0.25rem 0;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-reviews-container {
+    width: 100%;
+  }
+
+  .shared-reviews-header,
+  .shared-reviews-header h4 {
+    width: 95%;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .shared-reviews-grid {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reviews-tile {
+    width: 80%;
+    position: relative;
+    margin: 0 auto 1.5rem;
+    margin-right: auto;
+  }
+
+  .shared-reviews-top-sec {
+    display: block;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1.5px 1px black;
+
+  }
+
+  .reviews-top-sec-left {
+    color: gold;
+    margin: 0.25rem 0.25rem 0;
+    font-size: 1.2rem;
+  }
+
+  .reviews-top-sec-right img {
+    width: 2rem;
+    margin: 0.25rem 0.25rem 0;
+  }
+
+  .shared-reviews-text,
+  .shared-reviews-text p {
+    width: 95%;
+    font-weight: 450;
+    font-size: 1.2rem;
+    margin: 0.25rem 0.25rem 0;
+    margin-right: auto;
+  }
+
+  .bot-reviews-sec-img img {
+    width: 3rem;
+    margin: 0.25rem 0.5rem 0;
+  }
+
+  .bot-reviews-sec-name,
+  .bot-reviews-sec-name h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0.25rem 0.25rem 0;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-reviews-container {
+    width: 100%;
+  }
+
+  .shared-reviews-header,
+  .shared-reviews-header h4 {
+    width: 95%;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .shared-reviews-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reviews-tile {
+    width: 85%;
+    position: relative;
+    margin: 0 auto 0.75rem;
+    margin-right: auto;
+  }
+
+  .shared-reviews-top-sec {
+    display: block;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1.5px 1px black;
+
+  }
+
+  .reviews-top-sec-left {
+    color: gold;
+    margin: 0.25rem 0.25rem 0;
+    font-size: 1.7rem;
+  }
+
+  .reviews-top-sec-right img {
+    width: 3rem;
+    margin: 0.25rem 0.25rem 0;
+  }
+
+  .shared-reviews-text,
+  .shared-reviews-text p {
+    width: 95%;
+    font-weight: 450;
+    font-size: 1.6rem;
+    margin: 0.25rem 0.25rem 0;
+    margin-right: auto;
+  }
+
+  .bot-reviews-sec-img img {
+    width: 4rem;
+    margin: 0.25rem 0.5rem 0;
+  }
+
+  .bot-reviews-sec-name,
+  .bot-reviews-sec-name h4 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin: 0.25rem 0.25rem 0;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-reviews-container {
+    width: 100%;
+  }
+
+  .shared-reviews-header,
+  .shared-reviews-header h4 {
+    width: 95%;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .shared-reviews-grid {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reviews-tile {
+    width: 80%;
+    position: relative;
+    margin: 0 auto 1.5rem;
+    margin-right: auto;
+  }
+
+  .shared-reviews-top-sec {
+    display: block;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1.5px 1px black;
+
+  }
+
+  .reviews-top-sec-left {
+    color: gold;
+    margin: 0.25rem 0.25rem 0;
+    font-size: 1.7rem;
+  }
+
+  .reviews-top-sec-right img {
+    width: 3rem;
+    margin: 0.25rem 0.25rem 0;
+  }
+
+  .shared-reviews-text,
+  .shared-reviews-text p {
+    width: 95%;
+    font-weight: 450;
+    font-size: 1.6rem;
+    margin: 0.25rem 0.25rem 0;
+    margin-right: auto;
+  }
+
+  .bot-reviews-sec-img img {
+    width: 4rem;
+    margin: 0.25rem 0.5rem 0;
+  }
+
+  .bot-reviews-sec-name,
+  .bot-reviews-sec-name h4 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin: 0.25rem 0.25rem 0;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-reviews-container {
+    width: 100%;
+  }
+
+  .shared-reviews-header,
+  .shared-reviews-header h4 {
+    width: 95%;
+    margin: 1.5rem auto 1rem;
+    margin-right: auto;
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .shared-reviews-grid {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-reviews-tile {
+    width: 80%;
+    position: relative;
+    margin: 0 auto 1.5rem;
+    margin-right: auto;
+  }
+
+  .shared-reviews-top-sec {
+    display: block;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1.5px 1px black;
+
+  }
+
+  .reviews-top-sec-left {
+    color: gold;
+    margin: 0.25rem 0.25rem 0;
+    font-size: 1.7rem;
+  }
+
+  .reviews-top-sec-right img {
+    width: 3rem;
+    margin: 0.25rem 0.25rem 0;
+  }
+
+  .shared-reviews-text,
+  .shared-reviews-text p {
+    width: 95%;
+    font-weight: 450;
+    font-size: 1.6rem;
+    margin: 0.25rem 0.25rem 0;
+    margin-right: auto;
+  }
+
+  .bot-reviews-sec-img img {
+    width: 4rem;
+    margin: 0.25rem 0.5rem 0;
+  }
+
+  .bot-reviews-sec-name,
+  .bot-reviews-sec-name h4 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin: 0.25rem 0.25rem 0;
+  }
+}
 
 /* =================
 shared-social-bar
@@ -1406,15 +7198,251 @@ shared-social-bar
 
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-social-bar {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .shared-social-bar-header,
+  .shared-social-bar-header h4 {
+    width: 90%;
+    font-size: 1.7rem;
+    -webkit-text-stroke: 0.045rem black;
+    text-align: center;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .shared-social-bar-grid {
+    display: flex;
+    width: 100%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-social-bar-tile {
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-social-bar-image img {
+    width: 3rem;
+    height: 3.5rem;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-link,
+  .shared-social-bar-link a {
+    margin: 0 auto 0;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-right: auto;
+    color: black;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-social-bar {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-header,
+  .shared-social-bar-header h4 {
+    width: 90%;
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0.045rem black;
+    text-align: center;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-grid {
+    display: flex;
+    width: 100%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-tile {
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-image img {
+    width: 2.5rem;
+    height: 3rem;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-link,
+  .shared-social-bar-link a {
+    margin: 0 auto 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: auto;
+    color: black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-social-bar {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-header,
+  .shared-social-bar-header h4 {
+    width: 90%;
+    font-size: 2.1rem;
+    -webkit-text-stroke: 0.035rem black;
+    text-align: center;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-grid {
+    display: flex;
+    width: 100%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-tile {
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-image img {
+    width: 5rem;
+    height: 5.5rem;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-link,
+  .shared-social-bar-link a {
+    margin: 0 auto 0;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: auto;
+    color: black;
+  }
+
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-social-bar {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-header,
+  .shared-social-bar-header h4 {
+    width: 90%;
+    font-size: 2rem;
+    -webkit-text-stroke: 0.045rem black;
+    text-align: center;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-grid {
+    display: flex;
+    width: 100%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-tile {
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-image img {
+    width: 4.5rem;
+    height: 5rem;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-link,
+  .shared-social-bar-link a {
+    margin: 0 auto 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: auto;
+    color: black;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-social-bar {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-header,
+  .shared-social-bar-header h4 {
+    width: 90%;
+    font-size: 2.4rem;
+    -webkit-text-stroke: 0.055rem black;
+    text-align: center;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-grid {
+    display: flex;
+    width: 100%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-tile {
+    margin: 0 auto 0;
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-image img {
+    width: 5rem;
+    height: 5.5rem;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-social-bar-link,
+  .shared-social-bar-link a {
+    margin: 0 auto 0;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-right: auto;
+    color: black;
+  }
+}
 
 /* ==========================
 shared-index-image-container
@@ -1488,15 +7516,350 @@ shared-index-image-container
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-index-image-container {
+    background-image: url(img/colorful-flower-garden.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 4rem 0 1rem;
+    animation: barAnimation 10s infinite alternate;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  /* Keyframe animation */
+  @keyframes barAnimation {
+    0% {
+      background-size: 105%;
+    }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+    100% {
+      background-size: 120%;
+    }
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  /* Ensure responsiveness */
+  .shared-index-image-container {
+    background-size: cover;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-index-padding-image-container {
+    padding: 4rem 0 4rem;
+  }
+
+  .shared-index-image-text-body {
+    width: 60%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-index-image-text-body h4 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .shared-index-image-text-button {
+    width: 100%;
+  }
+
+  .shared-index-image-text-button a {
+    text-decoration: none;
+  }
+
+  .shared-index-text-body-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 1.5rem 3.5rem 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.2rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-index-text-body-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.25px black;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-index-image-container {
+    background-image: url(img/colorful-flower-garden.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 4rem 0 1rem;
+    animation: barAnimation 10s infinite alternate;
+  }
+
+  /* Keyframe animation */
+  @keyframes barAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  /* Ensure responsiveness */
+  .shared-index-image-container {
+    background-size: cover;
+  }
+
+  .shared-index-padding-image-container {
+    padding: 4rem 0 4rem;
+  }
+
+  .shared-index-image-text-body {
+    width: 60%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-index-image-text-body h4 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .shared-index-image-text-button {
+    width: 100%;
+  }
+
+  .shared-index-image-text-button a {
+    text-decoration: none;
+  }
+
+  .shared-index-text-body-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 1.5rem 2.65rem 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.2rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-index-text-body-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.25px black;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-index-image-container {
+    background-image: url(img/colorful-flower-garden.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 4rem 0 1rem;
+    animation: barAnimation 10s infinite alternate;
+  }
+
+  /* Keyframe animation */
+  @keyframes barAnimation {
+    0% {
+      background-size: 110%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  /* Ensure responsiveness */
+  .shared-index-image-container {
+    background-size: cover;
+  }
+
+  .shared-index-padding-image-container {
+    padding: 8rem 0 8rem;
+  }
+
+  .shared-index-image-text-body {
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-index-image-text-body h4 {
+    color: white;
+    font-size: 3.3rem;
+    text-align: center;
+  }
+
+  .shared-index-image-text-button {
+    width: 100%;
+  }
+
+  .shared-index-image-text-button a {
+    text-decoration: none;
+  }
+
+  .shared-index-text-body-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 1.5rem 3.75rem 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-index-text-body-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.25px black;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-index-image-container {
+    background-image: url(img/colorful-flower-garden.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 4rem 0 1rem;
+    animation: barAnimation 10s infinite alternate;
+  }
+
+  /* Keyframe animation */
+  @keyframes barAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  /* Ensure responsiveness */
+  .shared-index-image-container {
+    background-size: cover;
+  }
+
+  .shared-index-padding-image-container {
+    padding: 9rem 0 9rem;
+  }
+
+  .shared-index-image-text-body {
+    width: 60%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-index-image-text-body h4 {
+    color: white;
+    font-size: 3.3rem;
+    text-align: center;
+  }
+
+  .shared-index-image-text-button {
+    width: 100%;
+  }
+
+  .shared-index-image-text-button a {
+    text-decoration: none;
+  }
+
+  .shared-index-text-body-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 1.5rem 6.25rem 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.7rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-index-text-body-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.25px black;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-index-image-container {
+    background-image: url(img/colorful-flower-garden.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 4rem 0 1rem;
+    animation: barAnimation 10s infinite alternate;
+  }
+
+  /* Keyframe animation */
+  @keyframes barAnimation {
+    0% {
+      background-size: 105%;
+    }
+
+    100% {
+      background-size: 120%;
+    }
+  }
+
+  /* Ensure responsiveness */
+  .shared-index-image-container {
+    background-size: cover;
+  }
+
+  .shared-index-padding-image-container {
+    padding: 9rem 0 9rem;
+  }
+
+  .shared-index-image-text-body {
+    width: 60%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .shared-index-image-text-body h4 {
+    color: white;
+    font-size: 3.3rem;
+    text-align: center;
+  }
+
+  .shared-index-image-text-button {
+    width: 100%;
+  }
+
+  .shared-index-image-text-button a {
+    text-decoration: none;
+  }
+
+  .shared-index-text-body-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 2.5rem 7.5rem 0;
+    background-color: var(--basegreen);
+    margin-right: auto;
+    font-size: 1.9rem;
+    padding: 0.25em;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .shared-index-text-body-btn:hover {
+    opacity: 0.7;
+    font-weight: 600;
+    box-shadow: 1px 1px 1.5px 1.25px black;
+  }
+}
 
 /* ================================
 shared-image-carousel-container
@@ -1580,15 +7943,400 @@ shared-image-carousel-container
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .shared-image-carousel-container {
+    position: relative;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px black;
+    height: 23rem;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .carousel1 {
+    width: 100%;
+    height: 23rem;
+    position: absolute;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .carousel>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
 
-@media only screen and (1400px <=width) {}
+  .slide[data-active] {
+    opacity: 1;
+    transition-delay: 0;
+    z-index: 1;
+  }
+
+  .slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5vh 1vw;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel-button:focus {
+    outline: 1px solid black;
+  }
+
+  .carousel-button.prev {
+    left: 2vw;
+  }
+
+  .carousel-button.next {
+    right: 2vw;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .shared-image-carousel-container {
+    position: relative;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px black;
+    height: 21rem;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .carousel1 {
+    width: 100%;
+    height: 21rem;
+    position: absolute;
+  }
+
+  .carousel>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+
+  .slide[data-active] {
+    opacity: 1;
+    transition-delay: 0;
+    z-index: 1;
+  }
+
+  .slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5vh 1vw;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel-button:focus {
+    outline: 1px solid black;
+  }
+
+  .carousel-button.prev {
+    left: 2vw;
+  }
+
+  .carousel-button.next {
+    right: 2vw;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .shared-image-carousel-container {
+    position: relative;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px black;
+    height: 43rem;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .carousel1 {
+    width: 100%;
+    height: 43rem;
+    position: absolute;
+  }
+
+  .carousel>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+
+  .slide[data-active] {
+    opacity: 1;
+    transition-delay: 0;
+    z-index: 1;
+  }
+
+  .slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5vh 1vw;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel-button:focus {
+    outline: 1px solid black;
+  }
+
+  .carousel-button.prev {
+    left: 2vw;
+  }
+
+  .carousel-button.next {
+    right: 2vw;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .shared-image-carousel-container {
+    position: relative;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px black;
+    height: 43rem;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .carousel1 {
+    width: 100%;
+    height: 43rem;
+    position: absolute;
+  }
+
+  .carousel>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+
+  .slide[data-active] {
+    opacity: 1;
+    transition-delay: 0;
+    z-index: 1;
+  }
+
+  .slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5vh 1vw;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel-button:focus {
+    outline: 1px solid black;
+  }
+
+  .carousel-button.prev {
+    left: 2vw;
+  }
+
+  .carousel-button.next {
+    right: 2vw;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .shared-image-carousel-container {
+    position: relative;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px black;
+    height: 43rem;
+    margin: 1.5rem auto 0;
+    margin-right: auto;
+  }
+
+  .carousel1 {
+    width: 100%;
+    height: 43rem;
+    position: absolute;
+  }
+
+  .carousel>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+
+  .slide[data-active] {
+    opacity: 1;
+    transition-delay: 0;
+    z-index: 1;
+  }
+
+  .slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5vh 1vw;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel-button:focus {
+    outline: 1px solid black;
+  }
+
+  .carousel-button.prev {
+    left: 2vw;
+  }
+
+  .carousel-button.next {
+    right: 2vw;
+  }
+}
 
 /*================
 Navigation bar
@@ -1686,15 +8434,270 @@ Navigation bar
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .nav {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+    display: flex;
+    align-items: center;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 4rem;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .nav>.nav-header>.nav-title {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5em 0.25rem 0;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .nav>.nav-list {
+    display: flex;
+    gap: 0.75rem;
+  }
 
-@media only screen and (1400px <=width) {}
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav>#nav-check {
+    display: none;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .nav {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+    display: flex;
+    align-items: center;
+  }
+
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 3.75rem;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5em 0.25rem 0;
+  }
+
+  .nav>.nav-list {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav>#nav-check {
+    display: none;
+  }
+}
+
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .nav {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+    display: flex;
+    align-items: center;
+  }
+
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 6rem;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 1.25rem;
+  }
+
+  .nav>.nav-list {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+  }
+
+  .nav>#nav-check {
+    display: none;
+  }
+
+  .nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0.6rem;
+  }
+
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.4em;
+  }
+
+  .nav>.nav-btn>label>span {
+    display: block;
+    cursor: pointer;
+    width: 3rem;
+    padding: 0.25em;
+    border-top: 5px solid white;
+  }
+
+  .nav>.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 5.25rem;
+    left: 0;
+    z-index: 1;
+    opacity: 0.9;
+    overflow: hidden;
+  }
+
+  .nav>.nav-list>li {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 0.75rem 0 0.75rem;
+    margin: 0;
+  }
+
+  .nav>#nav-check:checked~.nav-list {
+    height: calc(34rem - 50px);
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .nav {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+    display: flex;
+    align-items: center;
+  }
+
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 5rem;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 1.25rem;
+  }
+
+  .nav>.nav-list {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav>#nav-check {
+    display: none;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .nav {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+    display: flex;
+    align-items: center;
+  }
+
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 5rem;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 1.25rem;
+  }
+
+  .nav>.nav-list {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav>#nav-check {
+    display: none;
+  }
+}
 
 /*================
 Footer
@@ -1794,48 +8797,477 @@ Footer
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #00a878;
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .footer-img img {
+    width: 7rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1.25px black;
+    display: block;
+    margin: 0.35rem auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .footer-column-01-text {
+    display: none;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .footer-column-01-social {
+    width: 90%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
 
-@media only screen and (1400px <=width) {}
+  .footer-column-01-social a {
+    color: white;
+    font-size: 1.7rem;
+    margin: 0 0.25rem 0;
+  }
 
+  .footer-column-02-header,
+  .footer-column-03-header,
+  .footer-column-04-header {
+    width: 95%;
+    font-size: 1.6rem;
+    margin: 0 auto 0;
+    color: black;
+    opacity: 0.5;
+    font-weight: 600;
+    margin-right: auto;
+  }
 
+  .footer-column-02-list a,
+  .footer-column-03-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+  }
 
+  .footer-column-04-list {
+    padding: 0.25rem 0.5rem 0;
+  }
 
+  .footer-column-04-list a {
+    color: white;
+    margin: 0 0.75em 0;
+    font-size: 1.1rem;
+  }
 
+  .footer-column-04-list li {
+    color: white;
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin: 0.75rem 0;
+  }
 
+  .footer-column-02-list li,
+  .footer-column-03-list li {
+    list-style-type: none;
+    padding: 0.25rem 0.5rem 0;
+    text-decoration: underline;
+    width: 100%;
+  }
 
+  .designed-by__container {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
 
+  .designed-by__container h4 {
+    text-align: center;
+    padding: 0.25em;
+    font-size: 0.8rem;
+  }
+}
 
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #00a878;
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
 
+  .footer-img img {
+    width: 6rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1.25px black;
+    display: block;
+    margin: 0.35rem auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
 
+  .footer-column-01-text {
+    display: none;
+  }
 
+  .footer-column-01-social {
+    width: 90%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:portrait) {}
+  .footer-column-01-social a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 0.25rem 0;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+  .footer-column-02-header,
+  .footer-column-03-header,
+  .footer-column-04-header {
+    width: 95%;
+    font-size: 1.5rem;
+    margin: 0 auto 0;
+    color: black;
+    opacity: 0.5;
+    font-weight: 600;
+    margin-right: auto;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .footer-column-02-list a,
+  .footer-column-03-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+  .footer-column-04-list {
+    padding: 0.25rem 0.5rem 0;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .footer-column-04-list a {
+    color: white;
+    margin: 0 0.75em 0;
+    font-size: 1.1rem;
+  }
 
-@media only screen and (1400px <=width) {}
+  .footer-column-04-list li {
+    color: white;
+    list-style-type: none;
+    font-size: 1rem;
+    margin: 0.75rem 0;
+  }
 
-@media only scree and (320px <=width <=768px) and (orientation:portrait) {}
+  .footer-column-02-list li,
+  .footer-column-03-list li {
+    list-style-type: none;
+    padding: 0.25rem 0.5rem 0;
+    text-decoration: underline;
+    width: 100%;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+  .designed-by__container {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .designed-by__container h4 {
+    text-align: center;
+    padding: 0.25em;
+    font-size: 0.8rem;
+  }
+}
 
-@media only screen and (769px <=width <=1024px) and (orientation:portrait) {}
+@media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+  .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #00a878;
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .footer-img img {
+    width: 9rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1.25px black;
+    display: block;
+    margin: 0.35rem auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
 
-@media only screen and (1400px <=width) {}
+  .footer-column-01-text {
+    display: none;
+  }
+
+  .footer-column-01-social {
+    width: 90%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .footer-column-01-social a {
+    color: white;
+    font-size: 2rem;
+    margin: 0 0.25rem 0;
+  }
+
+  .footer-column-02-header,
+  .footer-column-03-header,
+  .footer-column-04-header {
+    width: 95%;
+    font-size: 1.8rem;
+    margin: 0 auto 0;
+    color: black;
+    opacity: 0.5;
+    font-weight: 600;
+    margin-right: auto;
+  }
+
+  .footer-column-02-list a,
+  .footer-column-03-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  .footer-column-04-list {
+    padding: 0.25rem 0.5rem 0;
+  }
+
+  .footer-column-04-list a {
+    color: white;
+    margin: 0.37em;
+    font-size: 1.7rem;
+  }
+
+  .footer-column-04-list li {
+    color: white;
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .footer-column-02-list li,
+  .footer-column-03-list li {
+    list-style-type: none;
+    padding: 0.25rem 0.5rem 0;
+    text-decoration: underline;
+    width: 100%;
+  }
+
+  .designed-by__container {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
+
+  .designed-by__container h4 {
+    text-align: center;
+    padding: 0.25em;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #00a878;
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
+
+  .footer-img img {
+    width: 9rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1.25px black;
+    display: block;
+    margin: 0.35rem auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  .footer-column-01-text {
+    display: none;
+  }
+
+  .footer-column-01-social {
+    width: 90%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .footer-column-01-social a {
+    color: white;
+    font-size: 1.9rem;
+    margin: 0 0.25rem 0;
+  }
+
+  .footer-column-02-header,
+  .footer-column-03-header,
+  .footer-column-04-header {
+    width: 95%;
+    font-size: 1.8rem;
+    margin: 0 auto 0;
+    color: black;
+    opacity: 0.5;
+    font-weight: 600;
+    margin-right: auto;
+  }
+
+  .footer-column-02-list a,
+  .footer-column-03-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .footer-column-04-list {
+    padding: 0.25rem 0.5rem 0;
+  }
+
+  .footer-column-04-list a {
+    color: white;
+    margin: 0 0.65em 0;
+    font-size: 1.4rem;
+  }
+
+  .footer-column-04-list li {
+    color: white;
+    list-style-type: none;
+    font-size: 1.4rem;
+    margin: 0.75rem 0;
+  }
+
+  .footer-column-02-list li,
+  .footer-column-03-list li {
+    list-style-type: none;
+    padding: 0.25rem 0.5rem 0;
+    text-decoration: underline;
+    width: 100%;
+  }
+
+  .designed-by__container {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
+
+  .designed-by__container h4 {
+    text-align: center;
+    padding: 0.25em;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #00a878;
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
+
+  .footer-img img {
+    width: 9rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1.25px black;
+    display: block;
+    margin: 0.35rem auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  .footer-column-01-text {
+    display: none;
+  }
+
+  .footer-column-01-social {
+    width: 90%;
+    margin: 0.75rem auto 0;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .footer-column-01-social a {
+    color: white;
+    font-size: 1.9rem;
+    margin: 0 0.25rem 0;
+  }
+
+  .footer-column-02-header,
+  .footer-column-03-header,
+  .footer-column-04-header {
+    width: 95%;
+    font-size: 1.8rem;
+    margin: 0 auto 0;
+    color: black;
+    opacity: 0.5;
+    font-weight: 600;
+    margin-right: auto;
+  }
+
+  .footer-column-02-list a,
+  .footer-column-03-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .footer-column-04-list {
+    padding: 0.25rem 0.5rem 0;
+  }
+
+  .footer-column-04-list a {
+    color: white;
+    margin: 0 0.65em 0;
+    font-size: 1.4rem;
+  }
+
+  .footer-column-04-list li {
+    color: white;
+    list-style-type: none;
+    font-size: 1.4rem;
+    margin: 0.75rem 0;
+  }
+
+  .footer-column-02-list li,
+  .footer-column-03-list li {
+    list-style-type: none;
+    padding: 0.25rem 0.5rem 0;
+    text-decoration: underline;
+    width: 100%;
+  }
+
+  .designed-by__container {
+    width: 100%;
+    background: rgb(0, 168, 120);
+    background: linear-gradient(242deg, rgba(0, 168, 120, 1) 0%, rgba(5, 172, 85, 1) 100%);
+  }
+
+  .designed-by__container h4 {
+    text-align: center;
+    padding: 0.25em;
+    font-size: 1rem;
+  }
+}
