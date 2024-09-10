@@ -3223,7 +3223,7 @@ shared-offered-tile__container
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 4em 0 ;
+    padding: 4em 0;
     border: none;
     border-radius: 2px;
     transition: all 0.3s ease;
@@ -3903,6 +3903,7 @@ shared-offered-tile__container
 }
 
 @media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+
   .shared-services-top-header,
   .shared-services-top-header h4 {
     font-size: 2.1rem;
@@ -4146,6 +4147,7 @@ shared-offered-tile__container
 }
 
 @media only screen and (320px <=width <=768px) and (orientation:landscape) {
+
   .shared-services-top-header,
   .shared-services-top-header h4 {
     font-size: 2rem;
@@ -4633,6 +4635,7 @@ shared-offered-tile__container
 }
 
 @media only screen and (1025px <=width <=1399px) {
+
   .shared-services-top-header,
   .shared-services-top-header h4 {
     font-size: 2.7rem;
@@ -4876,6 +4879,7 @@ shared-offered-tile__container
 }
 
 @media only screen and (1400px <=width) {
+
   .shared-services-top-header,
   .shared-services-top-header h4 {
     font-size: 2.7rem;
@@ -5143,7 +5147,6 @@ shared-top-contact-container
     outline: auto;
     margin: 0 auto 0;
     margin-right: auto;
-    display: block;
   }
 
   .shared-top-contact-btn {
@@ -5151,7 +5154,7 @@ shared-top-contact-container
     border-radius: 3px;
     color: black;
     cursor: pointer;
-    margin: 0.75rem 2.75em 1rem;
+    margin: 0.75rem 2em 1rem;
     background-color: var(--basegreen);
     margin-right: auto;
     font-size: 1.1rem;
