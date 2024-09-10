@@ -3716,6 +3716,8 @@ shared-offered-tile__container
 
   .shared-services-column-01-list ul li {
     padding: 0 0 0.5rem;
+    outline: auto;
+    color: #00a878;
   }
 
   .shared-services-column-01-button {
