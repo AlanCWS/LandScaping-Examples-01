@@ -4141,7 +4141,7 @@ shared-offered-tile__container
   }
 
   .shared-image-tile-text h4 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -5190,7 +5190,7 @@ shared-top-contact-container
     border-radius: 3px;
     color: black;
     cursor: pointer;
-    margin: 0.75rem 2.15rem 1rem;
+    margin: 0.75rem 2.15em 1rem;
     background-color: var(--basegreen);
     margin-right: auto;
     font-size: 1.1rem;
@@ -5232,7 +5232,7 @@ shared-top-contact-container
     border-radius: 3px;
     color: black;
     cursor: pointer;
-    margin: 0.75rem 1.45rem 1rem;
+    margin: 0.75rem 1.45em 1rem;
     background-color: var(--basegreen);
     margin-right: auto;
     font-size: 1rem;
