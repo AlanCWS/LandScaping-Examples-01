@@ -4426,6 +4426,7 @@ shared-offered-tile__container
     width: 95%;
     font-size: 1.9rem;
     text-align: center;
+    color: pink;
     margin: 0 auto 0;
     margin-right: auto;
   }
