@@ -5139,7 +5139,10 @@ shared-top-contact-container
   }
 
   .shared-top-body-button {
-    width: 100%;
+    width: 95%;
+    outline: auto;
+    margin: 0 auto 0;
+    margin-right: auto;
     display: block;
   }
 
