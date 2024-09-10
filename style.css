@@ -5181,10 +5181,9 @@ shared-top-contact-container
   }
 
   .shared-top-body-button {
-    width: 85%;
+    width: 95%;
     margin: 0 auto 0;
     margin-right: auto;
-    outline: auto;
     display: block;
   }
 
@@ -5193,7 +5192,7 @@ shared-top-contact-container
     border-radius: 3px;
     color: black;
     cursor: pointer;
-    margin: 0.75rem 1.25em 1rem;
+    margin: 0.75rem 2.25rem 1rem;
     background-color: var(--basegreen);
     margin-right: auto;
     font-size: 1.1rem;
