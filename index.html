@@ -14,7 +14,7 @@
   <link rel="shortcut icon" href="img/lanscape-logo-example.png" type="image/x-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landscaping Example-01</title>
+  <title>Home</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
       <div class="nav-title">
-        Company Name
+        <a href="index.html">Company Name</a>
       </div>
     </div>
     <div class="nav-btn">
@@ -59,7 +59,7 @@
           </p>
         </div>
         <div class="index-keyframe-button">
-          <a href=""><button class="index-keyframe-btn">Our Services</button></a>
+          <a href="use-cases.html" class="index-keyframe-btn">Our Services</a>
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@
           </p>
         </div>
         <div class="industry-tile-button">
-          <a href="landscaping-maintenance.html"><button class="industry-tile-btn">Learn More</button></a>
+          <a href="landscaping-maintenance.html" class="industry-tile-btn">Learn More</a>
         </div>
       </div>
       <div class="industry-tile">
@@ -112,7 +112,7 @@
           </p>
         </div>
         <div class="industry-tile-button">
-          <a href="irrigation.html"><button class="industry-tile-btn">Learn More</button></a>
+          <a href="irrigation.html" class="industry-tile-btn">Learn More</a>
         </div>
       </div>
       <div class="industry-tile">
@@ -131,7 +131,7 @@
           </p>
         </div>
         <div class="industry-tile-button">
-          <a href="landscaping-installs.html"><button class="industry-tile-btn">Learn More</button></a>
+          <a href="landscaping-installs.html" class="industry-tile-btn">Learn More</a>
         </div>
       </div>
       <div class="industry-tile">
@@ -150,7 +150,7 @@
           </p>
         </div>
         <div class="industry-tile-button">
-          <a href="porter-services.html"><button class="industry-tile-btn">Learn More</button></a>
+          <a href="porter-services.html" class="industry-tile-btn">Learn More</a>
         </div>
       </div>
       <div class="industry-tile">
@@ -169,7 +169,7 @@
           </p>
         </div>
         <div class="industry-tile-button">
-          <a href="tree-maintenance.html"><button class="industry-tile-btn">Learn More</button></a>
+          <a href="tree-maintenance.html" class="industry-tile-btn">Learn More</a>
         </div>
       </div>
       <div class="industry-tile">
@@ -188,7 +188,7 @@
           </p>
         </div>
         <div class="industry-tile-button">
-          <a href="weed-control.html"><button class="industry-tile-btn">Learn More</button></a>
+          <a href="weed-control.html" class="industry-tile-btn">Learn More</a>
         </div>
       </div>
     </div>
@@ -276,9 +276,9 @@
                 Call Us Today of Fill Out The Form
               </h4>
               <div class="shared-index-image-text-button">
-                <a href="get-a-quote.html"><button class="shared-index-text-body-btn">Get Quote</button></a>
-                <a href="tel:"><button class="shared-index-text-body-btn">Call Us</button></a>
-                <a href="mailto:"><button class="shared-index-text-body-btn">Email Us</button></a>
+                <a href="get-a-quote.html" class="shared-index-text-body-btn">Get Quote</a>
+                <a href="tel:" class="shared-index-text-body-btn">Call Us</a>
+                <a href="mailto:" class="shared-index-text-body-btn">Email Us</a>
               </div>
             </div>
           </div>
@@ -377,39 +377,119 @@
       </div>
     </div>
   </section>
-  <div class="index-form-padding__container">
-    <div class="shared-form-container">
-      <form id="contactForm">
+  <section class="contact-us-customer-form">
+    <div class="contact-us-form">
+      <form id="contactForm" class="shared-contact-form" style="margin-bottom: 1.5rem;">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" placeholder="Name" required>
 
         <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" inputmode="numeric" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" placeholder="Email Address" required>
 
         <label for="location">Location:</label>
-        <input type="text" id="location" name="location" required>
+        <input type="text" id="location" name="location" placeholder="Project Location" required>
+
+        <label for="budget">Budget:</label>
+        <input type="text" id="budget" name="budget" placeholder="Project Budget" required>
 
         <label for="service">Service Required:</label>
         <select id="service" name="service" required>
           <option value="">Select an option</option>
-          <option value="landScaping">Landscape Maintenance</option>
-          <option value="treeCare">Tree Care</option>
-          <option value="irrigation">Irrigation Management </option>
-          <option value="weedServices">Weed Services </option>
-          <option value="porterServices">Porter Services </option>
+          <option value="EmergencyService">Emergency Service</option>
+          <option value="GeneralContractor">General Contractor</option>
+          <option value="Design&Build">Design & Build</option>
+          <option value="Estimate">Estimate</option>
+          <option value="Electrical">Electrical</option>
+          <option value="Plumbing">Plumbing</option>
+          <option value="Flooring">Flooring</option>
+          <option value="Painting">Painting</option>
+          <option value="Roofing">Roofing</option>
+          <option value="Framing">Framing</option>
+          <option value="Other">Other</option>
         </select>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <textarea id="message" name="message" rows="4"></textarea>
 
         <button class="shared-form-btn" type="submit">Submit</button>
       </form>
-      <div id="formResponse"></div>
     </div>
-  </div>
+  </section>
+  <section>
+    <div class="review-section">
+      <h2 class="review-section-header">
+        What Our Clients Have to Say!
+      </h2>
+      <div class="reviews-container">
+        <div class="review-card">
+          <p class="review-text">"We hired [Company Name] to build our home, and they exceeded expectations. The team
+            was professional, detail-oriented, and finished early. Amazing work!"</p>
+          <div class="reviewer-info">
+            <img src="img/user.png" alt="Client Photo">
+            <span>- Sarah L.</span>
+            <span>⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <p class="review-text">"Our home addition was completed flawlessly. The team was punctual, respectful, and
+            stayed on budget. Highly recommend them!"</p>
+          <div class="reviewer-info">
+            <img src="img/user.png" alt="Client Photo">
+            <span>- Mike D.</span>
+            <span>⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <p class="review-text">"They transformed our office space quickly and professionally. The team minimized
+            disruptions and delivered exactly what we wanted."</p>
+          <div class="reviewer-info">
+            <img src="img/user.png" alt="Client Photo">
+            <span>- Emily R.</span>
+            <span>⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <p class="review-text">"Our retail store build was seamless thanks to [Company Name]. They stayed on schedule,
+            and the final result was perfect!"</p>
+          <div class="reviewer-info">
+            <img src="img/user.png" alt="Client Photo">
+            <span>- John H.</span>
+            <span>⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <p class="review-text">"Our kitchen remodel turned out stunning. The team was creative, efficient, and kept us
+            updated throughout. Love our new space!"</p>
+          <div class="reviewer-info">
+            <img src="img/user.png" alt="Client Photo">
+            <span>- James T.</span>
+            <span>⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <p class="review-text">"They did an excellent job with our bathroom renovation. Professional, timely, and the
+            quality is fantastic. Highly recommend!"</p>
+          <div class="reviewer-info">
+            <img src="img/user.png" alt="Client Photo">
+            <span>- Linda P.</span>
+            <span>⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <p class="review-text">""We hired [Company Name] for a full basement renovation, and they knocked it out of
+            the park. The process was smooth, and the results are incredible!"</p>
+          <div class="reviewer-info">
+            <img src="img/user.png" alt="Client Photo">
+            <span>- Thomas M.</span>
+            <span>⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer>
     <div class="footer__container">
       <div class="footer-column-01">

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +16,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Landscaping Installs</title>
 </head>
+
 <body>
   <nav class="nav">
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
       <div class="nav-title">
-        Company Name
+        <a href="index.html">Company Name</a>
       </div>
     </div>
     <div class="nav-btn">
@@ -46,14 +48,14 @@
       </h4>
     </div>
     <div class="shared-top-body-button">
-      <a href="tel:"><button class="shared-top-contact-btn">Call Us</button></a>
-      <a href="mailto:"><button class="shared-top-contact-btn">Email Us</button></a>
-      <a href="get-a-quote.html"><button class="shared-top-contact-btn">Get Quote</button></a>
+      <a href="tel:" class="shared-top-contact-btn">Call Us</a>
+      <a href="mailto:" class="shared-top-contact-btn">Email Us</a>
+      <a href="get-a-quote.html" class="shared-top-contact-btn">Get Quote</a>
     </div>
   </div>
   <div class="shared-services-top-header">
     <h4>
-      Landscape Installs 
+      Landscape Installs
     </h4>
   </div>
   <div class="shared-services-grid">
@@ -87,7 +89,7 @@
         </ul>
       </div>
       <div class="shared-services-column-01-button">
-        <a href="get-a-quote.html"><button class="shared-services-column-01-btn">Get Quote</button></a>
+        <a href="get-a-quote.html" class="shared-services-column-01-btn">Get Quote</a>
       </div>
     </div>
     <div class="shared-services-column-02-image">
@@ -102,66 +104,31 @@
             <p> Get a quote from us!</p>
           </div>
           <div class="shared-services-column-02-button">
-            <a href="get-a-quote.html"><button class="shared-services-column-02-btn">Get Quote</button></a>
+            <a href="get-a-quote.html" class="shared-services-column-02-btn">Maintenance Services</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <section>
-    <div class="shared-image-carousel-container">
-      <section aria-label="Newest Photos">
-        <div class="carousel" data-carousel>
-          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
-          <ul data-slides>
-            <li class="slide" data-active> <img src="img/installs-ex-01.webp" alt="example01"></li>
-            <li class="slide"> <img src="img/installs-ex-02.jpg" alt="example02"></li>
-            <li class="slide"> <img src="img/installs-ex-03.jpg" alt="example03"></li>
-            <li class="slide"> <img src="img/installs-ex-04.jpg" alt="example05"></li>
-            <li class="slide"> <img src="" alt="example06"></li>
-            <li class="slide"> <img src="" alt="example07"></li>
-            <li class="slide"> <img src="" alt="example08"></li>
-            <li class="slide"> <img src="" alt="example09"></li>
-            <li class="slide"> <img src="" alt="example10"></li>
-            <li class="slide"> <img src="" alt="example11"></li>
-            <li class="slide"> <img src="" alt="example12"></li>
-            <li class="slide"> <img src="" alt="example13"></li>
-            <li class="slide"> <img src="" alt="example13"></li>
-            <li class="slide"> <img src="" alt="example13"></li>
-            <li class="slide"> <img src="" alt="example13"></li>
-            <li class="slide"> <img src="" alt="example14"></li>
-            <li class="slide"> <img src="" alt="example15"></li>
-          </ul>
+  <section class="all-services-carousel">
+    <h4 class="all-services-carousel-header">
+      Past Examples of Past Projects
+    </h4>
+    <section class="image-carousel">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev">&lt;</button>
+        <div class="carousel-images">
+          <img src="" alt="Commercial-Build-Example-01">
+          <img src="" alt="Commercial-Build-Example-02">
+          <img src="" alt="Commercial-Build-Example-03">
+          <img src="" alt="Commercial-Build-Example-04">
+          <img src="" alt="Commercial-Build-Example-05">
+          <img src="" alt="Commercial-Build-Example-06">
         </div>
-      </section>
-    </div>
+        <button class="carousel-button next">&gt;</button>
+      </div>
+    </section>
   </section>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll("[data-carousel-button]");
-
-  buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      const offset = button.dataset.carouselButton === "next" ? 1 : -1;
-      const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
-
-      const activeSlide = slides.querySelector("[data-active]");
-      let newIndex = [...slides.children].indexOf(activeSlide) + offset;
-      
-      // Handle wrapping around
-      if (newIndex < 0) newIndex = slides.children.length - 1;
-      if (newIndex >= slides.children.length) newIndex = 0;
-
-      // Deactivate all slides
-      [...slides.children].forEach(slide => delete slide.dataset.active);
-      
-      // Activate the new slide
-      slides.children[newIndex].dataset.active = true;
-    });
-  });
-});
-  </script>
   <section>
     <div class="shared-reviews-container">
       <div class="shared-reviews-header">
@@ -361,47 +328,41 @@
         </h4>
       </div>
       <div class="shared-uses-grid">
-        <div class="shared-image-tile-01">
-          <div class="shared-image-tile-text">
-            <h4>
-              Residential Lawn Care
-            </h4>
-          </div>
+        <div class="shared-image-tile">
+          <img src="img/view-tank-container-water-storage.jpg" alt="Residential-Lawn-Care">
+          <p class="shared-image-tile-body">
+            Residential Lawn Care
+          </p>
         </div>
-        <div class="shared-image-tile-02">
-          <div class="shared-image-tile-text">
-            <h4>
-              HOA Property Maintenance
-            </h4>
-          </div>
+        <div class="shared-image-tile">
+          <img src="img/hoa-tile.webp" alt="HOA-Property-Maintenance">
+          <p class="shared-image-tile-body">
+            HOA Property Maintenance
+          </p>
         </div>
-        <div class="shared-image-tile-03">
-          <div class="shared-image-tile-text">
-            <h4>
-              Multiple Property Maintenance
-            </h4>
-          </div>
+        <div class="shared-image-tile">
+          <img src="img/multiple-tile.jpg" alt="Multiple-Property-Maintenance">
+          <p class="shared-image-tile-body">
+            Multiple Property Maintenance
+          </p>
         </div>
-        <div class="shared-image-tile-04">
-          <div class="shared-image-tile-text">
-            <h4>
-              Vacation Rentals
-            </h4>
-          </div>
+        <div class="shared-image-tile">
+          <img src="img/vacation-tile.avif" alt="Vacation-Rentals">
+          <p class="shared-image-tile-body">
+            Vacation Rentals
+          </p>
         </div>
-        <div class="shared-image-tile-05">
-          <div class="shared-image-tile-text">
-            <h4>
-              Foreclosed Properties
-            </h4>
-          </div>
+        <div class="shared-image-tile">
+          <img src="img/foreclosed-tile.webp" alt="Foreclosed-Properties">
+          <p class="shared-image-tile-body">
+            Foreclosed Properties
+          </p>
         </div>
-        <div class="shared-image-tile-06">
-          <div class="shared-image-tile-text">
-            <h4>
-              Real Estate Open Houses
-            </h4>
-          </div>
+        <div class="shared-image-tile">
+          <img src="img/buying-foreclosed-home-with-fha-loan.jpg" alt="Real-Estate-Open-Houses">
+          <p class="shared-image-tile-body">
+            Real Estate Open Houses
+          </p>
         </div>
       </div>
     </div>
@@ -419,14 +380,6 @@
         </div>
         <div class="shared-social-bar-link">
           <a href="">Yelp</a>
-        </div>
-      </div>
-      <div class="shared-social-bar-tile">
-        <div class="shared-social-bar-image">
-          <img src="img/ANGI-10fb103e.png" alt="">
-        </div>
-        <div class="shared-social-bar-link">
-          <a href="">Angie's List</a>
         </div>
       </div>
       <div class="shared-social-bar-tile">
@@ -544,4 +497,5 @@
     </div>
   </footer>
 </body>
+
 </html>
