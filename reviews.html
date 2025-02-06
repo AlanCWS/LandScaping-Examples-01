@@ -311,7 +311,39 @@
         <a href="landscaping-maintenance.html" class="shared-offered-btn">Maintenance Services</a>
       </div>
     </div>
-    </div>
+    <style>
+      .shared-offered-btn {
+        display: block;
+      }
+
+      @media only screen and (320px <=width <=768px) and (orientation:landscape) {
+        .shared-offered-btn {
+          width: 35%;
+        }
+      }
+
+      @media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+        .shared-offered-btn {
+          width: 25%;
+        }
+      }
+
+      @media only screen and (769px <=width <=1024px) and (orientation:portrait) {
+        .shared-offered-btn {
+          width: 30%;
+        }
+      }
+      @media only screen and (1025px <= width <= 1399px) {
+        .shared-offered-btn {
+          width: 20%;
+        }
+      }
+      @media only screen and (1400px <= width) {
+        .shared-offered-btn {
+          width: 20%;
+        }
+      }
+    </style>
   </section>
   <div class="shared-social-bar">
     <div class="shared-social-bar-header">
@@ -362,8 +394,8 @@
         </div>
         <div class="footer-column-01-text">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, et. Nihil numquam cum magnam
-            corporis iure quo explicabo?
+            From vibrant gardens to perfectly manicured lawns, our expert team delivers precision, reliability, and
+            care—transforming outdoor spaces into beautiful, welcoming landscapes you can enjoy all year long!
           </p>
         </div>
         <div class="footer-column-01-social">
